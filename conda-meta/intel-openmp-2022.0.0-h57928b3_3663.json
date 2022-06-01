@@ -1,0 +1,131 @@
+{
+  "build": "h57928b3_3663",
+  "build_number": 3663,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\harry\\anaconda3\\pkgs\\intel-openmp-2022.0.0-h57928b3_3663",
+  "features": "",
+  "files": [
+    "Library/bin/libiomp5md.dll",
+    "Library/bin/libiomp5md.pdb",
+    "Library/bin/libiompstubs5md.dll",
+    "Library/bin/libomp-fallback-cstring.spv",
+    "Library/bin/omptarget.dll",
+    "Library/bin/omptarget.rtl.level0.dll",
+    "Library/bin/omptarget.rtl.opencl.dll",
+    "Library/lib/libomp-fallback-cstring.obj",
+    "Library/lib/libomp-spirvdevicertl-optional.obj",
+    "Library/lib/libomp-spirvdevicertl-required.obj",
+    "Library/lib/libomptarget-opencl-optional.bc",
+    "Library/lib/libomptarget-opencl-required.bc",
+    ".nonadmin"
+  ],
+  "fn": "intel-openmp-2022.0.0-h57928b3_3663.tar.bz2",
+  "license": "LicenseRef-ProprietaryIntel",
+  "license_family": "Proprietary",
+  "link": {
+    "source": "C:\\Users\\harry\\anaconda3\\pkgs\\intel-openmp-2022.0.0-h57928b3_3663",
+    "type": 1
+  },
+  "md5": "9617f0042f5eea1155970e6861f3ab6b",
+  "name": "intel-openmp",
+  "package_tarball_full_path": "C:\\Users\\harry\\anaconda3\\pkgs\\intel-openmp-2022.0.0-h57928b3_3663.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libiomp5md.dll",
+        "path_type": "hardlink",
+        "sha256": "ee6c4a8156b6afea82647326219c89cadc6e03648467d03f2db13e471b6d79db",
+        "sha256_in_prefix": "ee6c4a8156b6afea82647326219c89cadc6e03648467d03f2db13e471b6d79db",
+        "size_in_bytes": 1959528
+      },
+      {
+        "_path": "Library/bin/libiomp5md.pdb",
+        "path_type": "hardlink",
+        "sha256": "c6eea8be986e35aa608580fb32966b88b27ef0062c08bc59fa5177021ee289d6",
+        "sha256_in_prefix": "c6eea8be986e35aa608580fb32966b88b27ef0062c08bc59fa5177021ee289d6",
+        "size_in_bytes": 5287936
+      },
+      {
+        "_path": "Library/bin/libiompstubs5md.dll",
+        "path_type": "hardlink",
+        "sha256": "13e1f9858885880d56b3694da3035a25afc74beb57030d8f2f115d8b8d1b5e97",
+        "sha256_in_prefix": "13e1f9858885880d56b3694da3035a25afc74beb57030d8f2f115d8b8d1b5e97",
+        "size_in_bytes": 41576
+      },
+      {
+        "_path": "Library/bin/libomp-fallback-cstring.spv",
+        "path_type": "hardlink",
+        "sha256": "edc84c37ce18d393252e43a6d1e1aed5c1ff36d9f3ee9d731b009030a1eeb7d4",
+        "sha256_in_prefix": "edc84c37ce18d393252e43a6d1e1aed5c1ff36d9f3ee9d731b009030a1eeb7d4",
+        "size_in_bytes": 3900
+      },
+      {
+        "_path": "Library/bin/omptarget.dll",
+        "path_type": "hardlink",
+        "sha256": "a87a98e243ff573b37007b87b75603566c1840a762862832ac2e5f9f1629e5cd",
+        "sha256_in_prefix": "a87a98e243ff573b37007b87b75603566c1840a762862832ac2e5f9f1629e5cd",
+        "size_in_bytes": 670824
+      },
+      {
+        "_path": "Library/bin/omptarget.rtl.level0.dll",
+        "path_type": "hardlink",
+        "sha256": "037aafcb2431bdb507e061f524f38d77d746d11f996675b421bb101b1a0f60d2",
+        "sha256_in_prefix": "037aafcb2431bdb507e061f524f38d77d746d11f996675b421bb101b1a0f60d2",
+        "size_in_bytes": 1526376
+      },
+      {
+        "_path": "Library/bin/omptarget.rtl.opencl.dll",
+        "path_type": "hardlink",
+        "sha256": "cfd049d37c5fe4b2d7d7439691be767a83b0ebd249ad70a4679f80f9f658e81b",
+        "sha256_in_prefix": "cfd049d37c5fe4b2d7d7439691be767a83b0ebd249ad70a4679f80f9f658e81b",
+        "size_in_bytes": 1557608
+      },
+      {
+        "_path": "Library/lib/libomp-fallback-cstring.obj",
+        "path_type": "hardlink",
+        "sha256": "3c1522e5a828cd8f80d05cee6d036eb2d697bfca72887e391c438e28d9c85374",
+        "sha256_in_prefix": "3c1522e5a828cd8f80d05cee6d036eb2d697bfca72887e391c438e28d9c85374",
+        "size_in_bytes": 17624
+      },
+      {
+        "_path": "Library/lib/libomp-spirvdevicertl-optional.obj",
+        "path_type": "hardlink",
+        "sha256": "cb25f95adbad281a137dbbf562d017b4e62f50ba6b7c0af7f8ad93f6be721133",
+        "sha256_in_prefix": "cb25f95adbad281a137dbbf562d017b4e62f50ba6b7c0af7f8ad93f6be721133",
+        "size_in_bytes": 358419
+      },
+      {
+        "_path": "Library/lib/libomp-spirvdevicertl-required.obj",
+        "path_type": "hardlink",
+        "sha256": "7c9d87493aadc44b6c1b850c6235be4679fef3b1935869b014c6ef76e19097c9",
+        "sha256_in_prefix": "7c9d87493aadc44b6c1b850c6235be4679fef3b1935869b014c6ef76e19097c9",
+        "size_in_bytes": 8674
+      },
+      {
+        "_path": "Library/lib/libomptarget-opencl-optional.bc",
+        "path_type": "hardlink",
+        "sha256": "6ed55e6bdbbb12119e8c92a9393efd9a9f9665728e68cca7343897cc982a82da",
+        "sha256_in_prefix": "6ed55e6bdbbb12119e8c92a9393efd9a9f9665728e68cca7343897cc982a82da",
+        "size_in_bytes": 110880
+      },
+      {
+        "_path": "Library/lib/libomptarget-opencl-required.bc",
+        "path_type": "hardlink",
+        "sha256": "3ca6b8c58d60b0877139d1cd53af32e9407341d1c1509e4df56bf15fef7c4981",
+        "sha256_in_prefix": "3ca6b8c58d60b0877139d1cd53af32e9407341d1c1509e4df56bf15fef7c4981",
+        "size_in_bytes": 2420
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7efba7f9675dd1b771d3ca9dc8f5fbacad9cc2a77adad1879cfd1c83d143ad9f",
+  "size": 3729847,
+  "subdir": "win-64",
+  "timestamp": 1640250973847,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/intel-openmp-2022.0.0-h57928b3_3663.tar.bz2",
+  "version": "2022.0.0"
+}

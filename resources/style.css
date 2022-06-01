@@ -1,0 +1,133 @@
+QDialog > QFrame {
+    background-color: #d1d1d1;
+    border-radius: 10px;
+}
+
+#frame_main {
+    background-color: white;
+}
+
+ProjectView * {
+    border: 0px;
+}
+
+#toolbar_overview, #toolbar_sections, #toolbar_draft, #toolbar_graph, ToolButton {
+    background-color: #092957;
+}
+
+#title_overview, #title_sections, #title_draft, #title_graph {
+    color: #fff;
+}
+
+#button_close {
+    background-color: #fff;
+    border: 0px;
+}
+
+#main_overview, #main_sections, #main_draft, #main_graph {
+    background-color: #fff;
+}
+
+Sidebar {
+    background-color: #d1d1d1;
+    padding: 10px;
+}
+
+#toolbar_overview PropertyEdit {
+    border-radius: 2px;
+    background-color: #d1d1d1;
+    color: #4f4f4f;
+}
+
+PropertyView > QLabel, PropertyDialogView QLabel {
+    font-size: 16px;
+    color: #4f4f4f;
+}
+
+PropertyView > QLineEdit, PropertyDialogView PropertyEdit, ListDialogView PropertyEdit, ProcessDialogView PropertyEdit,
+DatasetDialogView PropertyEdit {
+    font-size: 22px;
+    color: #fff;
+}
+
+PropertyEdit:focus, ProcessDialogView QListView:focus {
+    border-color: transparent;
+}
+
+TableView {
+    border: 0px;
+    background-color: transparent;
+    color: #fff;
+    padding-right: 10px;
+}
+
+
+PropertyView > QLineEdit, QDialog PropertyEdit {
+    border: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+QDialog QPushButton, #button_icon {
+    border: 0px;
+    border-radius: 10px;
+    background-color: #005a9e;
+    color: #fff;
+    font-size: 22;
+}
+
+QDialog ToolButton {
+    border: 0px;
+    background-color: transparent;
+}
+
+ProcessDialogView QLabel {
+    color: #4f4f4f;
+}
+
+ProcessDialogView QListView, #objective_value, #constraints_value {
+    padding: 3px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#draftbar QTableView {
+    background-color: transparent;
+    selection-background-color: transparent;
+}
+
+#draftbar QTableView::item {
+    border: 0px;
+    margin: 5px 15px;
+}
+
+#draftbar QTableView::item:enabled {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #005a9e;
+}
+
+#title {
+    font-size: 22;
+}
+
+PropertyPopupView {
+    border: 0px;
+    padding: 3px;
+    border-radius: 2px;
+    background-color: #4f4f4f;
+}
+
+PropertyPopupView::item {
+    border: 0px;
+    color: #d1d1d1;
+}
+
+PropertyPopupView::item:selected {
+    color: #fff;
+}
+
+#draftbar ToolButton {
+    background-color: transparent;
+}

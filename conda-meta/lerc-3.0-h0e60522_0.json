@@ -1,0 +1,70 @@
+{
+  "build": "h0e60522_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "extracted_package_dir": "C:\\Users\\harry\\anaconda3\\pkgs\\lerc-3.0-h0e60522_0",
+  "features": "",
+  "files": [
+    "Library/bin/Lerc.dll",
+    "Library/include/Lerc_c_api.h",
+    "Library/include/Lerc_types.h",
+    "Library/lib/Lerc.lib",
+    ".nonadmin"
+  ],
+  "fn": "lerc-3.0-h0e60522_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "C:\\Users\\harry\\anaconda3\\pkgs\\lerc-3.0-h0e60522_0",
+    "type": 1
+  },
+  "md5": "756c8b51a32758df2ed6cddcc7b7ed58",
+  "name": "lerc",
+  "package_tarball_full_path": "C:\\Users\\harry\\anaconda3\\pkgs\\lerc-3.0-h0e60522_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/Lerc.dll",
+        "path_type": "hardlink",
+        "sha256": "d98a2f21bcc4483669b92d089d190f75f88c91e1808e4085544b2bec3b44cb33",
+        "sha256_in_prefix": "d98a2f21bcc4483669b92d089d190f75f88c91e1808e4085544b2bec3b44cb33",
+        "size_in_bytes": 385024
+      },
+      {
+        "_path": "Library/include/Lerc_c_api.h",
+        "path_type": "hardlink",
+        "sha256": "c0f0a3e8a91dd4e9727bb363153096132b601338123847308cdd8bf683fc700b",
+        "sha256_in_prefix": "c0f0a3e8a91dd4e9727bb363153096132b601338123847308cdd8bf683fc700b",
+        "size_in_bytes": 11652
+      },
+      {
+        "_path": "Library/include/Lerc_types.h",
+        "path_type": "hardlink",
+        "sha256": "2e2b19cb5d049f9bbebe2f3acd8be2ab920176cd1f48dea70dcc6c91e19b6249",
+        "sha256_in_prefix": "2e2b19cb5d049f9bbebe2f3acd8be2ab920176cd1f48dea70dcc6c91e19b6249",
+        "size_in_bytes": 939
+      },
+      {
+        "_path": "Library/lib/Lerc.lib",
+        "path_type": "hardlink",
+        "sha256": "3685dca4794c1cd85a940d41279662f4702ec09c0c8310858bf7ad45170937e1",
+        "sha256_in_prefix": "3685dca4794c1cd85a940d41279662f4702ec09c0c8310858bf7ad45170937e1",
+        "size_in_bytes": 3062
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fd84579f3aa3ad929a7ff97a30c6fb993a31c3fcfb229baa273af4dc661e3fc1",
+  "size": 143684,
+  "subdir": "win-64",
+  "timestamp": 1632753636278,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/lerc-3.0-h0e60522_0.tar.bz2",
+  "version": "3.0"
+}

@@ -1,0 +1,62 @@
+{
+  "build": "h2d74725_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15",
+    "vs2015_runtime >=14.16.27033"
+  ],
+  "extracted_package_dir": "C:\\Users\\harry\\anaconda3\\pkgs\\tbb-2021.5.0-h2d74725_1",
+  "features": "",
+  "files": [
+    "Library/bin/tbb12.dll",
+    "Library/bin/tbbmalloc.dll",
+    "Library/bin/tbbmalloc_proxy.dll",
+    ".nonadmin"
+  ],
+  "fn": "tbb-2021.5.0-h2d74725_1.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "C:\\Users\\harry\\anaconda3\\pkgs\\tbb-2021.5.0-h2d74725_1",
+    "type": 1
+  },
+  "md5": "8f00f39dbd7deaba11410b0b6e7b2cb4",
+  "name": "tbb",
+  "package_tarball_full_path": "C:\\Users\\harry\\anaconda3\\pkgs\\tbb-2021.5.0-h2d74725_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/tbb12.dll",
+        "path_type": "hardlink",
+        "sha256": "dd183815581af095e00bac3b5a69acd640ed4d7a7b7446333b1b195de6738463",
+        "sha256_in_prefix": "dd183815581af095e00bac3b5a69acd640ed4d7a7b7446333b1b195de6738463",
+        "size_in_bytes": 199168
+      },
+      {
+        "_path": "Library/bin/tbbmalloc.dll",
+        "path_type": "hardlink",
+        "sha256": "7175ddc5ac23ced7ef2fcda71694beee3aa777b37d07c5ed3a3fda585b1f9428",
+        "sha256_in_prefix": "7175ddc5ac23ced7ef2fcda71694beee3aa777b37d07c5ed3a3fda585b1f9428",
+        "size_in_bytes": 98304
+      },
+      {
+        "_path": "Library/bin/tbbmalloc_proxy.dll",
+        "path_type": "hardlink",
+        "sha256": "870471ad25fc0685d61b597c58069074b571fe2834809baef61ad3ac6391ae48",
+        "sha256_in_prefix": "870471ad25fc0685d61b597c58069074b571fe2834809baef61ad3ac6391ae48",
+        "size_in_bytes": 29696
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9692d8f94cb05f5ee52999f8ac25dde88bbf16749f18ead5276b7e7bab849eb1",
+  "size": 151924,
+  "subdir": "win-64",
+  "timestamp": 1649052225362,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/tbb-2021.5.0-h2d74725_1.tar.bz2",
+  "version": "2021.5.0"
+}

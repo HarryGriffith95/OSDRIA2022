@@ -1,0 +1,2522 @@
+{
+  "build": "pyhd3eb1b0_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "nose",
+    "python",
+    "setuptools",
+    "six"
+  ],
+  "extracted_package_dir": "C:\\Users\\harry\\anaconda3\\pkgs\\pyutilib-5.8.0-pyhd3eb1b0_1",
+  "features": "",
+  "files": [
+    "Scripts/checkCopyright",
+    "Scripts/replaceCopyright",
+    "Lib/site-packages/PyUtilib-5.8.0.dist-info/INSTALLER",
+    "Lib/site-packages/PyUtilib-5.8.0.dist-info/METADATA",
+    "Lib/site-packages/PyUtilib-5.8.0.dist-info/RECORD",
+    "Lib/site-packages/PyUtilib-5.8.0.dist-info/REQUESTED",
+    "Lib/site-packages/PyUtilib-5.8.0.dist-info/WHEEL",
+    "Lib/site-packages/PyUtilib-5.8.0.dist-info/direct_url.json",
+    "Lib/site-packages/PyUtilib-5.8.0.dist-info/entry_points.txt",
+    "Lib/site-packages/PyUtilib-5.8.0.dist-info/top_level.txt",
+    "Lib/site-packages/pyutilib/__init__.py",
+    "Lib/site-packages/pyutilib/autotest/__init__.py",
+    "Lib/site-packages/pyutilib/autotest/default_testdriver.py",
+    "Lib/site-packages/pyutilib/autotest/driver.py",
+    "Lib/site-packages/pyutilib/autotest/json_plugin.py",
+    "Lib/site-packages/pyutilib/autotest/plugins.py",
+    "Lib/site-packages/pyutilib/autotest/tests/__init__.py",
+    "Lib/site-packages/pyutilib/autotest/tests/test_driver.py",
+    "Lib/site-packages/pyutilib/autotest/yaml_plugin.py",
+    "Lib/site-packages/pyutilib/common/__init__.py",
+    "Lib/site-packages/pyutilib/common/_exceptions.py",
+    "Lib/site-packages/pyutilib/component/__init__.py",
+    "Lib/site-packages/pyutilib/component/app/__init__.py",
+    "Lib/site-packages/pyutilib/component/app/simple.py",
+    "Lib/site-packages/pyutilib/component/app/tests/__init__.py",
+    "Lib/site-packages/pyutilib/component/app/tests/app1a.py",
+    "Lib/site-packages/pyutilib/component/app/tests/app1b.py",
+    "Lib/site-packages/pyutilib/component/app/tests/app2.py",
+    "Lib/site-packages/pyutilib/component/app/tests/app3.py",
+    "Lib/site-packages/pyutilib/component/app/tests/app4.py",
+    "Lib/site-packages/pyutilib/component/app/tests/test_simple.py",
+    "Lib/site-packages/pyutilib/component/config/__init__.py",
+    "Lib/site-packages/pyutilib/component/config/configuration.py",
+    "Lib/site-packages/pyutilib/component/config/env_config.py",
+    "Lib/site-packages/pyutilib/component/config/logging_config.py",
+    "Lib/site-packages/pyutilib/component/config/managed_plugin.py",
+    "Lib/site-packages/pyutilib/component/config/options.py",
+    "Lib/site-packages/pyutilib/component/config/plugin_ConfigParser.py",
+    "Lib/site-packages/pyutilib/component/config/tempfiles.py",
+    "Lib/site-packages/pyutilib/component/config/tests/__init__.py",
+    "Lib/site-packages/pyutilib/component/config/tests/test_config.py",
+    "Lib/site-packages/pyutilib/component/config/tests/test_options.py",
+    "Lib/site-packages/pyutilib/component/config/tests/test_tempdir.py",
+    "Lib/site-packages/pyutilib/component/core/__init__.py",
+    "Lib/site-packages/pyutilib/component/core/core.py",
+    "Lib/site-packages/pyutilib/component/core/tests/__init__.py",
+    "Lib/site-packages/pyutilib/component/core/tests/test_core.py",
+    "Lib/site-packages/pyutilib/component/executables/__init__.py",
+    "Lib/site-packages/pyutilib/component/executables/executable.py",
+    "Lib/site-packages/pyutilib/component/loader/__init__.py",
+    "Lib/site-packages/pyutilib/component/loader/plugin_eggLoader.py",
+    "Lib/site-packages/pyutilib/component/loader/plugin_importLoader.py",
+    "Lib/site-packages/pyutilib/component/loader/tests/__init__.py",
+    "Lib/site-packages/pyutilib/component/loader/tests/egg1.py",
+    "Lib/site-packages/pyutilib/component/loader/tests/egg2.py",
+    "Lib/site-packages/pyutilib/component/loader/tests/load1.py",
+    "Lib/site-packages/pyutilib/component/loader/tests/load1a.py",
+    "Lib/site-packages/pyutilib/component/loader/tests/load2.py",
+    "Lib/site-packages/pyutilib/component/loader/tests/load2a.py",
+    "Lib/site-packages/pyutilib/component/loader/tests/test_egg.py",
+    "Lib/site-packages/pyutilib/component/loader/tests/test_load.py",
+    "Lib/site-packages/pyutilib/component/loader/tests/test_load2.py",
+    "Lib/site-packages/pyutilib/dev/__init__.py",
+    "Lib/site-packages/pyutilib/dev/checkCopyright.py",
+    "Lib/site-packages/pyutilib/dev/entry_point.py",
+    "Lib/site-packages/pyutilib/dev/lbin.py",
+    "Lib/site-packages/pyutilib/dev/lpython.py",
+    "Lib/site-packages/pyutilib/dev/pypi_downloads.py",
+    "Lib/site-packages/pyutilib/dev/replaceCopyright.py",
+    "Lib/site-packages/pyutilib/dev/runtests.py",
+    "Lib/site-packages/pyutilib/dev/tests/__init__.py",
+    "Lib/site-packages/pyutilib/dev/tests/test_runtests.py",
+    "Lib/site-packages/pyutilib/enum/__init__.py",
+    "Lib/site-packages/pyutilib/enum/enum.py",
+    "Lib/site-packages/pyutilib/enum/tests/__init__.py",
+    "Lib/site-packages/pyutilib/enum/tests/test_enum.py",
+    "Lib/site-packages/pyutilib/excel/__init__.py",
+    "Lib/site-packages/pyutilib/excel/base.py",
+    "Lib/site-packages/pyutilib/excel/excel.py",
+    "Lib/site-packages/pyutilib/excel/spreadsheet.py",
+    "Lib/site-packages/pyutilib/excel/spreadsheet_openpyxl.py",
+    "Lib/site-packages/pyutilib/excel/spreadsheet_win32com.py",
+    "Lib/site-packages/pyutilib/excel/spreadsheet_xlrd.py",
+    "Lib/site-packages/pyutilib/excel/tests/__init__.py",
+    "Lib/site-packages/pyutilib/excel/tests/test_data.py",
+    "Lib/site-packages/pyutilib/factory/__init__.py",
+    "Lib/site-packages/pyutilib/factory/executable.py",
+    "Lib/site-packages/pyutilib/factory/factory.py",
+    "Lib/site-packages/pyutilib/math/__init__.py",
+    "Lib/site-packages/pyutilib/math/median2.py",
+    "Lib/site-packages/pyutilib/math/median3.py",
+    "Lib/site-packages/pyutilib/math/numtypes.py",
+    "Lib/site-packages/pyutilib/math/tests/__init__.py",
+    "Lib/site-packages/pyutilib/math/tests/test_math.py",
+    "Lib/site-packages/pyutilib/math/tests/test_numtypes.py",
+    "Lib/site-packages/pyutilib/math/util.py",
+    "Lib/site-packages/pyutilib/misc/GlobalData.py",
+    "Lib/site-packages/pyutilib/misc/__init__.py",
+    "Lib/site-packages/pyutilib/misc/archivereader.py",
+    "Lib/site-packages/pyutilib/misc/comparison.py",
+    "Lib/site-packages/pyutilib/misc/config.py",
+    "Lib/site-packages/pyutilib/misc/cross.py",
+    "Lib/site-packages/pyutilib/misc/dict_with_default.py",
+    "Lib/site-packages/pyutilib/misc/factory.py",
+    "Lib/site-packages/pyutilib/misc/format_io.py",
+    "Lib/site-packages/pyutilib/misc/gc_manager.py",
+    "Lib/site-packages/pyutilib/misc/generator.py",
+    "Lib/site-packages/pyutilib/misc/import_file.py",
+    "Lib/site-packages/pyutilib/misc/indent_io.py",
+    "Lib/site-packages/pyutilib/misc/log_config.py",
+    "Lib/site-packages/pyutilib/misc/method.py",
+    "Lib/site-packages/pyutilib/misc/misc.py",
+    "Lib/site-packages/pyutilib/misc/pyyaml_util.py",
+    "Lib/site-packages/pyutilib/misc/redirect_io.py",
+    "Lib/site-packages/pyutilib/misc/singleton.py",
+    "Lib/site-packages/pyutilib/misc/tee_io.py",
+    "Lib/site-packages/pyutilib/misc/tests/__init__.py",
+    "Lib/site-packages/pyutilib/misc/tests/import1.py",
+    "Lib/site-packages/pyutilib/misc/tests/import2.py",
+    "Lib/site-packages/pyutilib/misc/tests/import_data/__init__.py",
+    "Lib/site-packages/pyutilib/misc/tests/import_data/a/__init__.py",
+    "Lib/site-packages/pyutilib/misc/tests/import_data/a/tfile.py",
+    "Lib/site-packages/pyutilib/misc/tests/import_data/b/__init__.py",
+    "Lib/site-packages/pyutilib/misc/tests/import_data/b/tfile.py",
+    "Lib/site-packages/pyutilib/misc/tests/import_data/tfile1.0.py",
+    "Lib/site-packages/pyutilib/misc/tests/import_exception.py",
+    "Lib/site-packages/pyutilib/misc/tests/import_main_exception.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_archivereader.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_config.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_cross.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_factory.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_import.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_io.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_json.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_log_config.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_method.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_misc.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_singleton.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_smap.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_visitor.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_xml.py",
+    "Lib/site-packages/pyutilib/misc/tests/test_yaml.py",
+    "Lib/site-packages/pyutilib/misc/timing.py",
+    "Lib/site-packages/pyutilib/misc/twzzle.py",
+    "Lib/site-packages/pyutilib/misc/visitor.py",
+    "Lib/site-packages/pyutilib/misc/xml_utils.py",
+    "Lib/site-packages/pyutilib/misc/xmltodict.py",
+    "Lib/site-packages/pyutilib/ply/__init__.py",
+    "Lib/site-packages/pyutilib/ply/ply.py",
+    "Lib/site-packages/pyutilib/pyro/__init__.py",
+    "Lib/site-packages/pyutilib/pyro/client.py",
+    "Lib/site-packages/pyutilib/pyro/dispatch_srvr.py",
+    "Lib/site-packages/pyutilib/pyro/dispatcher.py",
+    "Lib/site-packages/pyutilib/pyro/nameserver.py",
+    "Lib/site-packages/pyutilib/pyro/task.py",
+    "Lib/site-packages/pyutilib/pyro/util.py",
+    "Lib/site-packages/pyutilib/pyro/worker.py",
+    "Lib/site-packages/pyutilib/services/__init__.py",
+    "Lib/site-packages/pyutilib/services/services.py",
+    "Lib/site-packages/pyutilib/subprocess/GlobalData.py",
+    "Lib/site-packages/pyutilib/subprocess/__init__.py",
+    "Lib/site-packages/pyutilib/subprocess/processmngr.py",
+    "Lib/site-packages/pyutilib/subprocess/tests/__init__.py",
+    "Lib/site-packages/pyutilib/subprocess/tests/tee_script.py",
+    "Lib/site-packages/pyutilib/subprocess/tests/test_subprocess.py",
+    "Lib/site-packages/pyutilib/th/__init__.py",
+    "Lib/site-packages/pyutilib/th/nose_gc.py",
+    "Lib/site-packages/pyutilib/th/nose_testdata.py",
+    "Lib/site-packages/pyutilib/th/nose_timeout.py",
+    "Lib/site-packages/pyutilib/th/pyunit.py",
+    "Lib/site-packages/pyutilib/th/runtests.py",
+    "Lib/site-packages/pyutilib/th/tests/__init__.py",
+    "Lib/site-packages/pyutilib/th/tests/test_misc.py",
+    "Lib/site-packages/pyutilib/th/tests/test_pyunit.py",
+    "Lib/site-packages/pyutilib/workflow/__init__.py",
+    "Lib/site-packages/pyutilib/workflow/driver.py",
+    "Lib/site-packages/pyutilib/workflow/executable.py",
+    "Lib/site-packages/pyutilib/workflow/file.py",
+    "Lib/site-packages/pyutilib/workflow/functor.py",
+    "Lib/site-packages/pyutilib/workflow/globals.py",
+    "Lib/site-packages/pyutilib/workflow/resource.py",
+    "Lib/site-packages/pyutilib/workflow/task.py",
+    "Lib/site-packages/pyutilib/workflow/tasks.py",
+    "Lib/site-packages/pyutilib/workflow/tests/__init__.py",
+    "Lib/site-packages/pyutilib/workflow/tests/test_core.py",
+    "Lib/site-packages/pyutilib/workflow/tests/test_doc.py",
+    "Lib/site-packages/pyutilib/workflow/tests/test_task.py",
+    "Lib/site-packages/pyutilib/workflow/workflow.py",
+    ".nonadmin",
+    "Lib/site-packages/pyutilib/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/autotest/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/autotest/__pycache__/default_testdriver.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/autotest/__pycache__/driver.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/autotest/__pycache__/json_plugin.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/autotest/__pycache__/plugins.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/autotest/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/autotest/tests/__pycache__/test_driver.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/autotest/__pycache__/yaml_plugin.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/common/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/common/__pycache__/_exceptions.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/app/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/app/__pycache__/simple.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/app/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/app/tests/__pycache__/app1a.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/app/tests/__pycache__/app1b.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/app/tests/__pycache__/app2.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/app/tests/__pycache__/app3.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/app/tests/__pycache__/app4.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/app/tests/__pycache__/test_simple.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/config/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/config/__pycache__/configuration.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/config/__pycache__/env_config.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/config/__pycache__/logging_config.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/config/__pycache__/managed_plugin.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/config/__pycache__/options.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/config/__pycache__/plugin_ConfigParser.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/config/__pycache__/tempfiles.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/config/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/config/tests/__pycache__/test_config.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/config/tests/__pycache__/test_options.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/config/tests/__pycache__/test_tempdir.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/core/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/core/__pycache__/core.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/core/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/core/tests/__pycache__/test_core.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/executables/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/executables/__pycache__/executable.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/loader/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/loader/__pycache__/plugin_eggLoader.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/loader/__pycache__/plugin_importLoader.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/egg1.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/egg2.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/load1.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/load1a.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/load2.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/load2a.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/test_egg.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/test_load.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/test_load2.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/dev/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/dev/__pycache__/checkCopyright.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/dev/__pycache__/entry_point.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/dev/__pycache__/lbin.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/dev/__pycache__/lpython.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/dev/__pycache__/pypi_downloads.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/dev/__pycache__/replaceCopyright.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/dev/__pycache__/runtests.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/dev/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/dev/tests/__pycache__/test_runtests.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/enum/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/enum/__pycache__/enum.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/enum/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/enum/tests/__pycache__/test_enum.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/excel/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/excel/__pycache__/base.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/excel/__pycache__/excel.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/excel/__pycache__/spreadsheet.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/excel/__pycache__/spreadsheet_openpyxl.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/excel/__pycache__/spreadsheet_win32com.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/excel/__pycache__/spreadsheet_xlrd.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/excel/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/excel/tests/__pycache__/test_data.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/factory/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/factory/__pycache__/executable.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/factory/__pycache__/factory.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/math/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/math/__pycache__/median2.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/math/__pycache__/median3.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/math/__pycache__/numtypes.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/math/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/math/tests/__pycache__/test_math.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/math/tests/__pycache__/test_numtypes.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/math/__pycache__/util.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/GlobalData.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/archivereader.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/comparison.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/config.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/cross.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/dict_with_default.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/factory.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/format_io.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/gc_manager.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/generator.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/import_file.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/indent_io.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/log_config.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/method.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/misc.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/pyyaml_util.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/redirect_io.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/singleton.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/tee_io.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/import1.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/import2.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/import_data/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/import_data/a/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/import_data/a/__pycache__/tfile.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/import_data/b/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/import_data/b/__pycache__/tfile.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/import_data/__pycache__/tfile1.0.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/import_exception.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/import_main_exception.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_archivereader.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_config.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_cross.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_factory.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_import.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_io.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_json.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_log_config.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_method.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_misc.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_singleton.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_smap.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_visitor.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_xml.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_yaml.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/timing.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/twzzle.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/visitor.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/xml_utils.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/misc/__pycache__/xmltodict.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/ply/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/ply/__pycache__/ply.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/pyro/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/pyro/__pycache__/client.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/pyro/__pycache__/dispatch_srvr.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/pyro/__pycache__/dispatcher.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/pyro/__pycache__/nameserver.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/pyro/__pycache__/task.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/pyro/__pycache__/util.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/pyro/__pycache__/worker.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/services/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/services/__pycache__/services.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/subprocess/__pycache__/GlobalData.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/subprocess/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/subprocess/__pycache__/processmngr.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/subprocess/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/subprocess/tests/__pycache__/tee_script.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/subprocess/tests/__pycache__/test_subprocess.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/th/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/th/__pycache__/nose_gc.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/th/__pycache__/nose_testdata.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/th/__pycache__/nose_timeout.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/th/__pycache__/pyunit.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/th/__pycache__/runtests.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/th/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/th/tests/__pycache__/test_misc.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/th/tests/__pycache__/test_pyunit.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/__pycache__/driver.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/__pycache__/executable.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/__pycache__/file.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/__pycache__/functor.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/__pycache__/globals.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/__pycache__/resource.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/__pycache__/task.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/__pycache__/tasks.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/tests/__pycache__/test_core.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/tests/__pycache__/test_doc.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/tests/__pycache__/test_task.cpython-37.pyc",
+    "Lib/site-packages/pyutilib/workflow/__pycache__/workflow.cpython-37.pyc",
+    "Scripts/test.pyutilib-script.py",
+    "Scripts/lbin-script.py",
+    "Scripts/lpython-script.py",
+    "Scripts/pypi_downloads-script.py",
+    "Scripts/replacecopyright-script.py",
+    "Scripts/checkcopyright-script.py",
+    "Scripts/pyutilib_test_driver-script.py",
+    "Scripts/dispatch_srvr-script.py",
+    "Scripts/test.pyutilib.exe",
+    "Scripts/lbin.exe",
+    "Scripts/lpython.exe",
+    "Scripts/pypi_downloads.exe",
+    "Scripts/replacecopyright.exe",
+    "Scripts/checkcopyright.exe",
+    "Scripts/pyutilib_test_driver.exe",
+    "Scripts/dispatch_srvr.exe"
+  ],
+  "fn": "pyutilib-5.8.0-pyhd3eb1b0_1.conda",
+  "legacy_bz2_md5": "08eb6b97c3e217c8defb1c655bd60730",
+  "legacy_bz2_size": 171318,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\harry\\anaconda3\\pkgs\\pyutilib-5.8.0-pyhd3eb1b0_1",
+    "type": 1
+  },
+  "md5": "99137d8ce42bf908e920fb869435d079",
+  "name": "pyutilib",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\harry\\anaconda3\\pkgs\\pyutilib-5.8.0-pyhd3eb1b0_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/checkCopyright",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/ktietz/demo/mc3/conda-bld/pyutilib_1629478390195/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "99f8e6d22476807f5883772b8950035f245324d1ae628c184b4d5f7ca8f2155a",
+        "sha256_in_prefix": "aa8d640f1626907c21da43e3d930497599f81eb99b1dfab7e6fc28e03a4d66bf",
+        "size_in_bytes": 476
+      },
+      {
+        "_path": "python-scripts/replaceCopyright",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/ktietz/demo/mc3/conda-bld/pyutilib_1629478390195/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "932905f4e3f2c909db9364b4a4e70c37d324aa97c8a0236d457e768d7fe5ae1a",
+        "sha256_in_prefix": "e962c9213338e0a616ccc4001e8fff3722a6f5b6f9d1cc8e5c054bcc057c203a",
+        "size_in_bytes": 478
+      },
+      {
+        "_path": "site-packages/PyUtilib-5.8.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/PyUtilib-5.8.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "941054b49a0588df5912b7f9e8a49724d5ef990f1a4fd87c32c7e5ee2b4552de",
+        "sha256_in_prefix": "941054b49a0588df5912b7f9e8a49724d5ef990f1a4fd87c32c7e5ee2b4552de",
+        "size_in_bytes": 3317
+      },
+      {
+        "_path": "site-packages/PyUtilib-5.8.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "fbdae86943d988bec687f3b3ec52871c285d40eecd4ac0179efb8ba078eece14",
+        "sha256_in_prefix": "fbdae86943d988bec687f3b3ec52871c285d40eecd4ac0179efb8ba078eece14",
+        "size_in_bytes": 28005
+      },
+      {
+        "_path": "site-packages/PyUtilib-5.8.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/PyUtilib-5.8.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "sha256_in_prefix": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/PyUtilib-5.8.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "171d75acc575fa784cb023ab799e258537cd1dbe6263b79e7d1632003ab1fe58",
+        "sha256_in_prefix": "171d75acc575fa784cb023ab799e258537cd1dbe6263b79e7d1632003ab1fe58",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "site-packages/PyUtilib-5.8.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "4c05c419b9eda221a6e82df2f9c19df1ecaa4489e6f75332068276d3ada91678",
+        "sha256_in_prefix": "4c05c419b9eda221a6e82df2f9c19df1ecaa4489e6f75332068276d3ada91678",
+        "size_in_bytes": 672
+      },
+      {
+        "_path": "site-packages/PyUtilib-5.8.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4a3e69cbc42dab6d1bbdc429398d3de0f2bab787ea66d5f682814976cee37365",
+        "sha256_in_prefix": "4a3e69cbc42dab6d1bbdc429398d3de0f2bab787ea66d5f682814976cee37365",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/pyutilib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e724a547c6df9715d72db8918f533736ba532e4ec202272b27eee2a1e7bd762b",
+        "sha256_in_prefix": "e724a547c6df9715d72db8918f533736ba532e4ec202272b27eee2a1e7bd762b",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "site-packages/pyutilib/autotest/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0b461988a87c3b8767f2ee26c1e5f75b4fe30556553d1f8b226b6852bc65cd19",
+        "sha256_in_prefix": "0b461988a87c3b8767f2ee26c1e5f75b4fe30556553d1f8b226b6852bc65cd19",
+        "size_in_bytes": 882
+      },
+      {
+        "_path": "site-packages/pyutilib/autotest/default_testdriver.py",
+        "path_type": "hardlink",
+        "sha256": "7cb3c852e413f775f54d4aae84c1d146acc5c374dd34fb9b84d170aebcfbbd56",
+        "sha256_in_prefix": "7cb3c852e413f775f54d4aae84c1d146acc5c374dd34fb9b84d170aebcfbbd56",
+        "size_in_bytes": 1337
+      },
+      {
+        "_path": "site-packages/pyutilib/autotest/driver.py",
+        "path_type": "hardlink",
+        "sha256": "1ecba46a92027955140125e79f6b084a12b7b199058c3412824385c2a5dd2a51",
+        "sha256_in_prefix": "1ecba46a92027955140125e79f6b084a12b7b199058c3412824385c2a5dd2a51",
+        "size_in_bytes": 15451
+      },
+      {
+        "_path": "site-packages/pyutilib/autotest/json_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "453d5284e280f43fb793ad5daf32a137285f0f55cc6c68b865fed0efc12c01e6",
+        "sha256_in_prefix": "453d5284e280f43fb793ad5daf32a137285f0f55cc6c68b865fed0efc12c01e6",
+        "size_in_bytes": 1103
+      },
+      {
+        "_path": "site-packages/pyutilib/autotest/plugins.py",
+        "path_type": "hardlink",
+        "sha256": "fe35b7802a86717900111f34540a6452e9e6b827eada64627a2f424a00245a2a",
+        "sha256_in_prefix": "fe35b7802a86717900111f34540a6452e9e6b827eada64627a2f424a00245a2a",
+        "size_in_bytes": 1918
+      },
+      {
+        "_path": "site-packages/pyutilib/autotest/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f40f78a8811bee547962ea0b565a0a3f89285ade43cb59cda00d3ee0539b1e17",
+        "sha256_in_prefix": "f40f78a8811bee547962ea0b565a0a3f89285ade43cb59cda00d3ee0539b1e17",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "site-packages/pyutilib/autotest/tests/test_driver.py",
+        "path_type": "hardlink",
+        "sha256": "5fcc177725ebdbaa4415af16b4acb3670202eda8565559b0c42facd64d92cf99",
+        "sha256_in_prefix": "5fcc177725ebdbaa4415af16b4acb3670202eda8565559b0c42facd64d92cf99",
+        "size_in_bytes": 6659
+      },
+      {
+        "_path": "site-packages/pyutilib/autotest/yaml_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "1f59b244cc2321c971804857e3db1c04f4ab3ec200a42abbcd903887dc83b524",
+        "sha256_in_prefix": "1f59b244cc2321c971804857e3db1c04f4ab3ec200a42abbcd903887dc83b524",
+        "size_in_bytes": 1397
+      },
+      {
+        "_path": "site-packages/pyutilib/common/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "70b3f25eac50fb0e4ae71071d736d9a0090395f9ea101792ebd55c67af119a2b",
+        "sha256_in_prefix": "70b3f25eac50fb0e4ae71071d736d9a0090395f9ea101792ebd55c67af119a2b",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "site-packages/pyutilib/common/_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "63f1f362517479c208477932eef466a77ee64e1ac22d340fb692c95bf2d8e146",
+        "sha256_in_prefix": "63f1f362517479c208477932eef466a77ee64e1ac22d340fb692c95bf2d8e146",
+        "size_in_bytes": 1555
+      },
+      {
+        "_path": "site-packages/pyutilib/component/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "55482b87a0fe2b2dd817c27a7647f2e9b4af3ecc97f48fe3a0b8c2733451a56b",
+        "sha256_in_prefix": "55482b87a0fe2b2dd817c27a7647f2e9b4af3ecc97f48fe3a0b8c2733451a56b",
+        "size_in_bytes": 699
+      },
+      {
+        "_path": "site-packages/pyutilib/component/app/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "76cf9317101bdb0c7b5943cca433c8d02cc2bbe0b68d23aadc946552d7816232",
+        "sha256_in_prefix": "76cf9317101bdb0c7b5943cca433c8d02cc2bbe0b68d23aadc946552d7816232",
+        "size_in_bytes": 605
+      },
+      {
+        "_path": "site-packages/pyutilib/component/app/simple.py",
+        "path_type": "hardlink",
+        "sha256": "c69f9000be5c80c42f4ab146ca7278c04400faf8cc1accaaa02867af879fb2e6",
+        "sha256_in_prefix": "c69f9000be5c80c42f4ab146ca7278c04400faf8cc1accaaa02867af879fb2e6",
+        "size_in_bytes": 1941
+      },
+      {
+        "_path": "site-packages/pyutilib/component/app/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e72eecc692b24266c81e5ca7e0940df40e7cbc5f57217a4c59c7b5f54efd15e4",
+        "sha256_in_prefix": "e72eecc692b24266c81e5ca7e0940df40e7cbc5f57217a4c59c7b5f54efd15e4",
+        "size_in_bytes": 31
+      },
+      {
+        "_path": "site-packages/pyutilib/component/app/tests/app1a.py",
+        "path_type": "hardlink",
+        "sha256": "67b949a4502f1adf46c00cbd3876ea6b0cc2c91c39dacf24e7f172d89cddccfb",
+        "sha256_in_prefix": "67b949a4502f1adf46c00cbd3876ea6b0cc2c91c39dacf24e7f172d89cddccfb",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "site-packages/pyutilib/component/app/tests/app1b.py",
+        "path_type": "hardlink",
+        "sha256": "d65e02831b2e1a6cfc2e2d5bd91013fe27c46fe0b0147fd56a64e6c46f785563",
+        "sha256_in_prefix": "d65e02831b2e1a6cfc2e2d5bd91013fe27c46fe0b0147fd56a64e6c46f785563",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "site-packages/pyutilib/component/app/tests/app2.py",
+        "path_type": "hardlink",
+        "sha256": "94db023f7e5dc475c05538f110f8745592fbf4bd05ace06974d27d8273feef35",
+        "sha256_in_prefix": "94db023f7e5dc475c05538f110f8745592fbf4bd05ace06974d27d8273feef35",
+        "size_in_bytes": 268
+      },
+      {
+        "_path": "site-packages/pyutilib/component/app/tests/app3.py",
+        "path_type": "hardlink",
+        "sha256": "82c9aca9657b4c0a0fe8a674a6d8fac91833f03d6c1afb593519adb9f60501b4",
+        "sha256_in_prefix": "82c9aca9657b4c0a0fe8a674a6d8fac91833f03d6c1afb593519adb9f60501b4",
+        "size_in_bytes": 337
+      },
+      {
+        "_path": "site-packages/pyutilib/component/app/tests/app4.py",
+        "path_type": "hardlink",
+        "sha256": "95f8b1222a3bc8a5502aa962ef98c57c1c86855e7158a6eff25759db962b9068",
+        "sha256_in_prefix": "95f8b1222a3bc8a5502aa962ef98c57c1c86855e7158a6eff25759db962b9068",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "site-packages/pyutilib/component/app/tests/test_simple.py",
+        "path_type": "hardlink",
+        "sha256": "21d665396e87a4bab9e6c7ba5cdf8fa4097645b012175aa07e35ca0c4de04ff5",
+        "sha256_in_prefix": "21d665396e87a4bab9e6c7ba5cdf8fa4097645b012175aa07e35ca0c4de04ff5",
+        "size_in_bytes": 2029
+      },
+      {
+        "_path": "site-packages/pyutilib/component/config/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "60202ac63f5edd26de87530f35558c20fe8f6f00fcaa99e6343877e68f07a2db",
+        "sha256_in_prefix": "60202ac63f5edd26de87530f35558c20fe8f6f00fcaa99e6343877e68f07a2db",
+        "size_in_bytes": 1319
+      },
+      {
+        "_path": "site-packages/pyutilib/component/config/configuration.py",
+        "path_type": "hardlink",
+        "sha256": "77309373e96e5796cc944296f5087aee8ab78b29eda98f36874b3a52122d44b1",
+        "sha256_in_prefix": "77309373e96e5796cc944296f5087aee8ab78b29eda98f36874b3a52122d44b1",
+        "size_in_bytes": 7915
+      },
+      {
+        "_path": "site-packages/pyutilib/component/config/env_config.py",
+        "path_type": "hardlink",
+        "sha256": "6ea0af14f99e60894b2f3c9be476d30d5bcb64768b487efef20df76154e97a89",
+        "sha256_in_prefix": "6ea0af14f99e60894b2f3c9be476d30d5bcb64768b487efef20df76154e97a89",
+        "size_in_bytes": 3045
+      },
+      {
+        "_path": "site-packages/pyutilib/component/config/logging_config.py",
+        "path_type": "hardlink",
+        "sha256": "78559eae01f879e1f0ab3ec04a3864ee0fde3fc868df02a26d2ff35767f81688",
+        "sha256_in_prefix": "78559eae01f879e1f0ab3ec04a3864ee0fde3fc868df02a26d2ff35767f81688",
+        "size_in_bytes": 7066
+      },
+      {
+        "_path": "site-packages/pyutilib/component/config/managed_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "626aeab0348f1cf767e47e338025c5cb9730293449d031c2b724d6ddb6ca1c48",
+        "sha256_in_prefix": "626aeab0348f1cf767e47e338025c5cb9730293449d031c2b724d6ddb6ca1c48",
+        "size_in_bytes": 2152
+      },
+      {
+        "_path": "site-packages/pyutilib/component/config/options.py",
+        "path_type": "hardlink",
+        "sha256": "7d5907ca4fa3463aa211eeeb5da4122df4b6f73f1a3f7343fa20aab2daa9b6ac",
+        "sha256_in_prefix": "7d5907ca4fa3463aa211eeeb5da4122df4b6f73f1a3f7343fa20aab2daa9b6ac",
+        "size_in_bytes": 21384
+      },
+      {
+        "_path": "site-packages/pyutilib/component/config/plugin_ConfigParser.py",
+        "path_type": "hardlink",
+        "sha256": "2a4e797166fb8820866686694cedac0b5cfc642d7699ee391545e67232e7bfb3",
+        "sha256_in_prefix": "2a4e797166fb8820866686694cedac0b5cfc642d7699ee391545e67232e7bfb3",
+        "size_in_bytes": 2690
+      },
+      {
+        "_path": "site-packages/pyutilib/component/config/tempfiles.py",
+        "path_type": "hardlink",
+        "sha256": "16a39a0aab1692d56c9d6d2dbb806f3aa22b14802465f3606ece36aa16f6ff8a",
+        "sha256_in_prefix": "16a39a0aab1692d56c9d6d2dbb806f3aa22b14802465f3606ece36aa16f6ff8a",
+        "size_in_bytes": 7165
+      },
+      {
+        "_path": "site-packages/pyutilib/component/config/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "09fc6392108010ee98a45d721aab60a0629c61d44e08d705f817193df8b6e081",
+        "sha256_in_prefix": "09fc6392108010ee98a45d721aab60a0629c61d44e08d705f817193df8b6e081",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "site-packages/pyutilib/component/config/tests/test_config.py",
+        "path_type": "hardlink",
+        "sha256": "6fabb450a1b5da5d5dcfc0f7296f01b6bb2f0611bedcb15466e268f55ed4918f",
+        "sha256_in_prefix": "6fabb450a1b5da5d5dcfc0f7296f01b6bb2f0611bedcb15466e268f55ed4918f",
+        "size_in_bytes": 5747
+      },
+      {
+        "_path": "site-packages/pyutilib/component/config/tests/test_options.py",
+        "path_type": "hardlink",
+        "sha256": "ac8409d8e469a267e8b87beee9b7c03891beabd4e2cd7b37ac80e44f97f1fcb8",
+        "sha256_in_prefix": "ac8409d8e469a267e8b87beee9b7c03891beabd4e2cd7b37ac80e44f97f1fcb8",
+        "size_in_bytes": 10548
+      },
+      {
+        "_path": "site-packages/pyutilib/component/config/tests/test_tempdir.py",
+        "path_type": "hardlink",
+        "sha256": "162b054a235f1ce09dd90f9b8c3f8b323e2cd89a988b0536a93e595388e24210",
+        "sha256_in_prefix": "162b054a235f1ce09dd90f9b8c3f8b323e2cd89a988b0536a93e595388e24210",
+        "size_in_bytes": 9830
+      },
+      {
+        "_path": "site-packages/pyutilib/component/core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "de91b101857ce3bd9817358b84f86100dbd44a542512c3093174094d1d17c0a7",
+        "sha256_in_prefix": "de91b101857ce3bd9817358b84f86100dbd44a542512c3093174094d1d17c0a7",
+        "size_in_bytes": 1667
+      },
+      {
+        "_path": "site-packages/pyutilib/component/core/core.py",
+        "path_type": "hardlink",
+        "sha256": "8f26228c024067a0d69852bae4bf51f542da74b258c7f2161c27f312b8d88514",
+        "sha256_in_prefix": "8f26228c024067a0d69852bae4bf51f542da74b258c7f2161c27f312b8d88514",
+        "size_in_bytes": 40587
+      },
+      {
+        "_path": "site-packages/pyutilib/component/core/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "09fc6392108010ee98a45d721aab60a0629c61d44e08d705f817193df8b6e081",
+        "sha256_in_prefix": "09fc6392108010ee98a45d721aab60a0629c61d44e08d705f817193df8b6e081",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "site-packages/pyutilib/component/core/tests/test_core.py",
+        "path_type": "hardlink",
+        "sha256": "8dce45963da8719720591c24acad16d68a6db6280c16e08361a985b11273f1f9",
+        "sha256_in_prefix": "8dce45963da8719720591c24acad16d68a6db6280c16e08361a985b11273f1f9",
+        "size_in_bytes": 15190
+      },
+      {
+        "_path": "site-packages/pyutilib/component/executables/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "40ffa212b8eb0d10d7bc9bf56ca029db129713ea14913203feee02dab1d7b3f5",
+        "sha256_in_prefix": "40ffa212b8eb0d10d7bc9bf56ca029db129713ea14913203feee02dab1d7b3f5",
+        "size_in_bytes": 630
+      },
+      {
+        "_path": "site-packages/pyutilib/component/executables/executable.py",
+        "path_type": "hardlink",
+        "sha256": "17c5c5fa4ae52a4210cf38b363b2561a899175e01ff4fd4d081ad7f91bb4f119",
+        "sha256_in_prefix": "17c5c5fa4ae52a4210cf38b363b2561a899175e01ff4fd4d081ad7f91bb4f119",
+        "size_in_bytes": 2360
+      },
+      {
+        "_path": "site-packages/pyutilib/component/loader/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "441a264373e3616dd74054ad23b8b8162b86760b6a344dc002e929090466173a",
+        "sha256_in_prefix": "441a264373e3616dd74054ad23b8b8162b86760b6a344dc002e929090466173a",
+        "size_in_bytes": 672
+      },
+      {
+        "_path": "site-packages/pyutilib/component/loader/plugin_eggLoader.py",
+        "path_type": "hardlink",
+        "sha256": "163725f39024073f9058f0c474903df00e9ac34b4875325eec5ea51faa76702e",
+        "sha256_in_prefix": "163725f39024073f9058f0c474903df00e9ac34b4875325eec5ea51faa76702e",
+        "size_in_bytes": 6081
+      },
+      {
+        "_path": "site-packages/pyutilib/component/loader/plugin_importLoader.py",
+        "path_type": "hardlink",
+        "sha256": "c01406d33c45c6b9fbc09de8a8735e47c3cbe82fb2dd0bab68e1cc96c853ad4f",
+        "sha256_in_prefix": "c01406d33c45c6b9fbc09de8a8735e47c3cbe82fb2dd0bab68e1cc96c853ad4f",
+        "size_in_bytes": 5585
+      },
+      {
+        "_path": "site-packages/pyutilib/component/loader/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cfbd1e6e2feff64aa6daf6a7bc8f59afb8ad5f76ac39047b6387883f3ec627b9",
+        "sha256_in_prefix": "cfbd1e6e2feff64aa6daf6a7bc8f59afb8ad5f76ac39047b6387883f3ec627b9",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "site-packages/pyutilib/component/loader/tests/egg1.py",
+        "path_type": "hardlink",
+        "sha256": "5fa55cdd3c899ec164b2352ab9ee475a720fbefe987079d6597b84a3dce30eae",
+        "sha256_in_prefix": "5fa55cdd3c899ec164b2352ab9ee475a720fbefe987079d6597b84a3dce30eae",
+        "size_in_bytes": 837
+      },
+      {
+        "_path": "site-packages/pyutilib/component/loader/tests/egg2.py",
+        "path_type": "hardlink",
+        "sha256": "8cdfdae5da1ca435f0317a19b8f80a29f355754ed86a85e11382b67722e7dd29",
+        "sha256_in_prefix": "8cdfdae5da1ca435f0317a19b8f80a29f355754ed86a85e11382b67722e7dd29",
+        "size_in_bytes": 843
+      },
+      {
+        "_path": "site-packages/pyutilib/component/loader/tests/load1.py",
+        "path_type": "hardlink",
+        "sha256": "d24cee41c8746a2eb4efc94030c26cc6f50a1f68a3a7b2e4e15421835451298c",
+        "sha256_in_prefix": "d24cee41c8746a2eb4efc94030c26cc6f50a1f68a3a7b2e4e15421835451298c",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "site-packages/pyutilib/component/loader/tests/load1a.py",
+        "path_type": "hardlink",
+        "sha256": "3fdaa85335ba871640c37a6596a3124e6fff5b91def560403bf708020fc5c48e",
+        "sha256_in_prefix": "3fdaa85335ba871640c37a6596a3124e6fff5b91def560403bf708020fc5c48e",
+        "size_in_bytes": 448
+      },
+      {
+        "_path": "site-packages/pyutilib/component/loader/tests/load2.py",
+        "path_type": "hardlink",
+        "sha256": "d58da050931ce04dd74a09db19f18930c6e9131b8478aac5f6bc657c36d82a18",
+        "sha256_in_prefix": "d58da050931ce04dd74a09db19f18930c6e9131b8478aac5f6bc657c36d82a18",
+        "size_in_bytes": 452
+      },
+      {
+        "_path": "site-packages/pyutilib/component/loader/tests/load2a.py",
+        "path_type": "hardlink",
+        "sha256": "81bfddffdf05d76361941e2f9f93fff8fe5c71b777085bcdf59c3812030f92b2",
+        "sha256_in_prefix": "81bfddffdf05d76361941e2f9f93fff8fe5c71b777085bcdf59c3812030f92b2",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "site-packages/pyutilib/component/loader/tests/test_egg.py",
+        "path_type": "hardlink",
+        "sha256": "eb43d00372502c0fc0da38ec0448d22ae339b752cc41ed71fa202ced5c869221",
+        "sha256_in_prefix": "eb43d00372502c0fc0da38ec0448d22ae339b752cc41ed71fa202ced5c869221",
+        "size_in_bytes": 2013
+      },
+      {
+        "_path": "site-packages/pyutilib/component/loader/tests/test_load.py",
+        "path_type": "hardlink",
+        "sha256": "dd22331426dc42dad2c6f9f9caf4d47b7583a74e6c909dbe010aa6a66c4bbc40",
+        "sha256_in_prefix": "dd22331426dc42dad2c6f9f9caf4d47b7583a74e6c909dbe010aa6a66c4bbc40",
+        "size_in_bytes": 2059
+      },
+      {
+        "_path": "site-packages/pyutilib/component/loader/tests/test_load2.py",
+        "path_type": "hardlink",
+        "sha256": "d44fa0bca43648a16cd43dd85549a4128fe9c4a136fdae7f75abfd431f9d34a9",
+        "sha256_in_prefix": "d44fa0bca43648a16cd43dd85549a4128fe9c4a136fdae7f75abfd431f9d34a9",
+        "size_in_bytes": 2655
+      },
+      {
+        "_path": "site-packages/pyutilib/dev/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e724a547c6df9715d72db8918f533736ba532e4ec202272b27eee2a1e7bd762b",
+        "sha256_in_prefix": "e724a547c6df9715d72db8918f533736ba532e4ec202272b27eee2a1e7bd762b",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "site-packages/pyutilib/dev/checkCopyright.py",
+        "path_type": "hardlink",
+        "sha256": "f4ec389f5d4b2d11fedbe2a4b513f77dc4a6507f470db042cbeecbb36f24b03d",
+        "sha256_in_prefix": "f4ec389f5d4b2d11fedbe2a4b513f77dc4a6507f470db042cbeecbb36f24b03d",
+        "size_in_bytes": 1494
+      },
+      {
+        "_path": "site-packages/pyutilib/dev/entry_point.py",
+        "path_type": "hardlink",
+        "sha256": "34e8d71b6140c1172d45d7cc0f8c9c7c7c9eda6a7835e789e94839ba10d3b27a",
+        "sha256_in_prefix": "34e8d71b6140c1172d45d7cc0f8c9c7c7c9eda6a7835e789e94839ba10d3b27a",
+        "size_in_bytes": 1225
+      },
+      {
+        "_path": "site-packages/pyutilib/dev/lbin.py",
+        "path_type": "hardlink",
+        "sha256": "73e71caac9af127b4cb9052ea016261f0afa330d3ee3008c7328636a02147828",
+        "sha256_in_prefix": "73e71caac9af127b4cb9052ea016261f0afa330d3ee3008c7328636a02147828",
+        "size_in_bytes": 2626
+      },
+      {
+        "_path": "site-packages/pyutilib/dev/lpython.py",
+        "path_type": "hardlink",
+        "sha256": "d4a6a36d878e06f14a013ee5ccc071b46b96db196cfd993dcd430931c5d2b781",
+        "sha256_in_prefix": "d4a6a36d878e06f14a013ee5ccc071b46b96db196cfd993dcd430931c5d2b781",
+        "size_in_bytes": 2980
+      },
+      {
+        "_path": "site-packages/pyutilib/dev/pypi_downloads.py",
+        "path_type": "hardlink",
+        "sha256": "c04d8ce699f5659f8813f6d5f4f43929e781014134ae6ccb7b2fd3ba89396f56",
+        "sha256_in_prefix": "c04d8ce699f5659f8813f6d5f4f43929e781014134ae6ccb7b2fd3ba89396f56",
+        "size_in_bytes": 7277
+      },
+      {
+        "_path": "site-packages/pyutilib/dev/replaceCopyright.py",
+        "path_type": "hardlink",
+        "sha256": "9ef4762c9bdd42dff2d3ef214c01da41f059381e5733f78c1433ff7a9aadc9e6",
+        "sha256_in_prefix": "9ef4762c9bdd42dff2d3ef214c01da41f059381e5733f78c1433ff7a9aadc9e6",
+        "size_in_bytes": 2229
+      },
+      {
+        "_path": "site-packages/pyutilib/dev/runtests.py",
+        "path_type": "hardlink",
+        "sha256": "8b9669ebf6b2179694c345246bbce54a64a63514354520633a28076618ce2031",
+        "sha256_in_prefix": "8b9669ebf6b2179694c345246bbce54a64a63514354520633a28076618ce2031",
+        "size_in_bytes": 8905
+      },
+      {
+        "_path": "site-packages/pyutilib/dev/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyutilib/dev/tests/test_runtests.py",
+        "path_type": "hardlink",
+        "sha256": "5afd6866b8a89061f9b3c4a2e3baaa9c2943ab1b591771d8778b5c98169aacb3",
+        "sha256_in_prefix": "5afd6866b8a89061f9b3c4a2e3baaa9c2943ab1b591771d8778b5c98169aacb3",
+        "size_in_bytes": 16031
+      },
+      {
+        "_path": "site-packages/pyutilib/enum/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ea2ff7a66bd75599c14d249a3bf7e1a6d4f5fd00f1db26656ef7be70cb36eb81",
+        "sha256_in_prefix": "ea2ff7a66bd75599c14d249a3bf7e1a6d4f5fd00f1db26656ef7be70cb36eb81",
+        "size_in_bytes": 480
+      },
+      {
+        "_path": "site-packages/pyutilib/enum/enum.py",
+        "path_type": "hardlink",
+        "sha256": "5c1d53ac32247f0430823fe0114f6888a3c5073172641bdc7bc1f7764a75edcd",
+        "sha256_in_prefix": "5c1d53ac32247f0430823fe0114f6888a3c5073172641bdc7bc1f7764a75edcd",
+        "size_in_bytes": 9008
+      },
+      {
+        "_path": "site-packages/pyutilib/enum/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e724a547c6df9715d72db8918f533736ba532e4ec202272b27eee2a1e7bd762b",
+        "sha256_in_prefix": "e724a547c6df9715d72db8918f533736ba532e4ec202272b27eee2a1e7bd762b",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "site-packages/pyutilib/enum/tests/test_enum.py",
+        "path_type": "hardlink",
+        "sha256": "39f1b1ae0071e727fa86bd0f97c88d696897ffba60aacf808ab5401d01813996",
+        "sha256_in_prefix": "39f1b1ae0071e727fa86bd0f97c88d696897ffba60aacf808ab5401d01813996",
+        "size_in_bytes": 21018
+      },
+      {
+        "_path": "site-packages/pyutilib/excel/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "353311ad8763014fe1f0290d92a81a4d2d0298fa14cb334abc8454e98742eaec",
+        "sha256_in_prefix": "353311ad8763014fe1f0290d92a81a4d2d0298fa14cb334abc8454e98742eaec",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "site-packages/pyutilib/excel/base.py",
+        "path_type": "hardlink",
+        "sha256": "6d0e9bc20cdd19a271f2d32d045a0a594d2c9d4c1c5afd364eddfe293a36833f",
+        "sha256_in_prefix": "6d0e9bc20cdd19a271f2d32d045a0a594d2c9d4c1c5afd364eddfe293a36833f",
+        "size_in_bytes": 613
+      },
+      {
+        "_path": "site-packages/pyutilib/excel/excel.py",
+        "path_type": "hardlink",
+        "sha256": "6b7b80e4aa99b356fc7c635a7ae9f4469b3f1a88f43659f194c866d8c33d7a14",
+        "sha256_in_prefix": "6b7b80e4aa99b356fc7c635a7ae9f4469b3f1a88f43659f194c866d8c33d7a14",
+        "size_in_bytes": 7078
+      },
+      {
+        "_path": "site-packages/pyutilib/excel/spreadsheet.py",
+        "path_type": "hardlink",
+        "sha256": "99dea050612eca0942e38700723bab1e3ea38b29e31dc40620a759cfa501aee4",
+        "sha256_in_prefix": "99dea050612eca0942e38700723bab1e3ea38b29e31dc40620a759cfa501aee4",
+        "size_in_bytes": 3382
+      },
+      {
+        "_path": "site-packages/pyutilib/excel/spreadsheet_openpyxl.py",
+        "path_type": "hardlink",
+        "sha256": "947b081237fd69fdb514aad7602f20ee68f21f7d948ee3c4599639e0eeacedb4",
+        "sha256_in_prefix": "947b081237fd69fdb514aad7602f20ee68f21f7d948ee3c4599639e0eeacedb4",
+        "size_in_bytes": 9393
+      },
+      {
+        "_path": "site-packages/pyutilib/excel/spreadsheet_win32com.py",
+        "path_type": "hardlink",
+        "sha256": "9438f872089e134443303b0defab871e9ca45259b5977e55170cfc1f8078e228",
+        "sha256_in_prefix": "9438f872089e134443303b0defab871e9ca45259b5977e55170cfc1f8078e228",
+        "size_in_bytes": 9892
+      },
+      {
+        "_path": "site-packages/pyutilib/excel/spreadsheet_xlrd.py",
+        "path_type": "hardlink",
+        "sha256": "6685ffc6c35d169ecfd7b38542d21a841b118e5f3a8fefa1e8cbb01acfc526ff",
+        "sha256_in_prefix": "6685ffc6c35d169ecfd7b38542d21a841b118e5f3a8fefa1e8cbb01acfc526ff",
+        "size_in_bytes": 6972
+      },
+      {
+        "_path": "site-packages/pyutilib/excel/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "09fc6392108010ee98a45d721aab60a0629c61d44e08d705f817193df8b6e081",
+        "sha256_in_prefix": "09fc6392108010ee98a45d721aab60a0629c61d44e08d705f817193df8b6e081",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "site-packages/pyutilib/excel/tests/test_data.py",
+        "path_type": "hardlink",
+        "sha256": "9cbb7c31cd90af191e31e412da46f81ee17f98277e794dc083360dc7440c3b5e",
+        "sha256_in_prefix": "9cbb7c31cd90af191e31e412da46f81ee17f98277e794dc083360dc7440c3b5e",
+        "size_in_bytes": 9565
+      },
+      {
+        "_path": "site-packages/pyutilib/factory/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b3be833a5c03483f8406a74f87feb692590fed7dfe99324c83a66b97e9036d17",
+        "sha256_in_prefix": "b3be833a5c03483f8406a74f87feb692590fed7dfe99324c83a66b97e9036d17",
+        "size_in_bytes": 599
+      },
+      {
+        "_path": "site-packages/pyutilib/factory/executable.py",
+        "path_type": "hardlink",
+        "sha256": "5b0dd39e385acb51fd98e80f3c5b365fc64354d0b701b7c3b18126485fc4c328",
+        "sha256_in_prefix": "5b0dd39e385acb51fd98e80f3c5b365fc64354d0b701b7c3b18126485fc4c328",
+        "size_in_bytes": 2163
+      },
+      {
+        "_path": "site-packages/pyutilib/factory/factory.py",
+        "path_type": "hardlink",
+        "sha256": "bcbfcd87a7ed76bc0daae71b43bc32024df067811821f9b79361c40aeca31cfa",
+        "sha256_in_prefix": "bcbfcd87a7ed76bc0daae71b43bc32024df067811821f9b79361c40aeca31cfa",
+        "size_in_bytes": 2941
+      },
+      {
+        "_path": "site-packages/pyutilib/math/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a87d17a06c118c85296af9723be721a321904576ed7e1af22f448f84e2295d4b",
+        "sha256_in_prefix": "a87d17a06c118c85296af9723be721a321904576ed7e1af22f448f84e2295d4b",
+        "size_in_bytes": 619
+      },
+      {
+        "_path": "site-packages/pyutilib/math/median2.py",
+        "path_type": "hardlink",
+        "sha256": "06ad2305511376533259120b8e204a06653faed7010e956e4842bc17eed877a5",
+        "sha256_in_prefix": "06ad2305511376533259120b8e204a06653faed7010e956e4842bc17eed877a5",
+        "size_in_bytes": 896
+      },
+      {
+        "_path": "site-packages/pyutilib/math/median3.py",
+        "path_type": "hardlink",
+        "sha256": "8fa6605523730288405c72c263f44eb4e247fb18d3c5c407ec1fa6e97174451d",
+        "sha256_in_prefix": "8fa6605523730288405c72c263f44eb4e247fb18d3c5c407ec1fa6e97174451d",
+        "size_in_bytes": 898
+      },
+      {
+        "_path": "site-packages/pyutilib/math/numtypes.py",
+        "path_type": "hardlink",
+        "sha256": "96983571ca22c92f7965a298f3e7bfc084afab16d571a4e2e29ff1b4afb00cec",
+        "sha256_in_prefix": "96983571ca22c92f7965a298f3e7bfc084afab16d571a4e2e29ff1b4afb00cec",
+        "size_in_bytes": 1728
+      },
+      {
+        "_path": "site-packages/pyutilib/math/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e724a547c6df9715d72db8918f533736ba532e4ec202272b27eee2a1e7bd762b",
+        "sha256_in_prefix": "e724a547c6df9715d72db8918f533736ba532e4ec202272b27eee2a1e7bd762b",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "site-packages/pyutilib/math/tests/test_math.py",
+        "path_type": "hardlink",
+        "sha256": "2eff43b056e72ed092dc98d25e3439c92d59cd2b174ee0b02485ba66fbd9d973",
+        "sha256_in_prefix": "2eff43b056e72ed092dc98d25e3439c92d59cd2b174ee0b02485ba66fbd9d973",
+        "size_in_bytes": 3174
+      },
+      {
+        "_path": "site-packages/pyutilib/math/tests/test_numtypes.py",
+        "path_type": "hardlink",
+        "sha256": "f5cc974732c12e0c5360c7414dd596538625c9e1c54b7a67027812a21c15c4f6",
+        "sha256_in_prefix": "f5cc974732c12e0c5360c7414dd596538625c9e1c54b7a67027812a21c15c4f6",
+        "size_in_bytes": 1663
+      },
+      {
+        "_path": "site-packages/pyutilib/math/util.py",
+        "path_type": "hardlink",
+        "sha256": "e5533ded53b88b2b1ebfcb15e86b23e88894e897abd1e3f78ccca6cd90317f42",
+        "sha256_in_prefix": "e5533ded53b88b2b1ebfcb15e86b23e88894e897abd1e3f78ccca6cd90317f42",
+        "size_in_bytes": 3688
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/GlobalData.py",
+        "path_type": "hardlink",
+        "sha256": "d695eae30b2bea1265e2ee8e445d8b69577482f007802092abf9a9df783c88bb",
+        "sha256_in_prefix": "d695eae30b2bea1265e2ee8e445d8b69577482f007802092abf9a9df783c88bb",
+        "size_in_bytes": 495
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f0ce55265dd84c1c10ffaa2a340ed692d3deca09102be1dded32c080f63101e3",
+        "sha256_in_prefix": "f0ce55265dd84c1c10ffaa2a340ed692d3deca09102be1dded32c080f63101e3",
+        "size_in_bytes": 2145
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/archivereader.py",
+        "path_type": "hardlink",
+        "sha256": "a5bccca9021efafb54a93e8e2f39a0cf87e52ab85fe8e67c2ca6d9f1866942ce",
+        "sha256_in_prefix": "a5bccca9021efafb54a93e8e2f39a0cf87e52ab85fe8e67c2ca6d9f1866942ce",
+        "size_in_bytes": 26333
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/comparison.py",
+        "path_type": "hardlink",
+        "sha256": "dd6e502ed3d47612fb7dd46949789cf9e018020284acdb9cde49d3c647e500c3",
+        "sha256_in_prefix": "dd6e502ed3d47612fb7dd46949789cf9e018020284acdb9cde49d3c647e500c3",
+        "size_in_bytes": 14408
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/config.py",
+        "path_type": "hardlink",
+        "sha256": "3b10f981ccf6a0fdcc049ff1d5e590433aca7564230fb34bb0ec88dfa02cf86e",
+        "sha256_in_prefix": "3b10f981ccf6a0fdcc049ff1d5e590433aca7564230fb34bb0ec88dfa02cf86e",
+        "size_in_bytes": 59922
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/cross.py",
+        "path_type": "hardlink",
+        "sha256": "8ca9cd0e326bf8cf5a042a750fc548bddf19f0eda2ecdf66888ec65505671c2b",
+        "sha256_in_prefix": "8ca9cd0e326bf8cf5a042a750fc548bddf19f0eda2ecdf66888ec65505671c2b",
+        "size_in_bytes": 4117
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/dict_with_default.py",
+        "path_type": "hardlink",
+        "sha256": "0eb1b034fe8a81e1cf45d0c0bd370a2639f395d925b591053b8c6ca9284fab66",
+        "sha256_in_prefix": "0eb1b034fe8a81e1cf45d0c0bd370a2639f395d925b591053b8c6ca9284fab66",
+        "size_in_bytes": 4021
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/factory.py",
+        "path_type": "hardlink",
+        "sha256": "3f9500847a4b9541818a211f80a1b3e25a410c5b4d9b9cd21167f1d87c400fb5",
+        "sha256_in_prefix": "3f9500847a4b9541818a211f80a1b3e25a410c5b4d9b9cd21167f1d87c400fb5",
+        "size_in_bytes": 2943
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/format_io.py",
+        "path_type": "hardlink",
+        "sha256": "1818cb20a557b99f44080d1074b3e8388c990ce001dae32b3155d80921a78f7f",
+        "sha256_in_prefix": "1818cb20a557b99f44080d1074b3e8388c990ce001dae32b3155d80921a78f7f",
+        "size_in_bytes": 1336
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/gc_manager.py",
+        "path_type": "hardlink",
+        "sha256": "860f9657205af928ed0339866a1784b6b1d4bae415ce025554531ef99579a626",
+        "sha256_in_prefix": "860f9657205af928ed0339866a1784b6b1d4bae415ce025554531ef99579a626",
+        "size_in_bytes": 1636
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/generator.py",
+        "path_type": "hardlink",
+        "sha256": "e1857fccedc4b0aea63b3d217f55296acb3cf7377d58ee8799e2f7107cf4d07e",
+        "sha256_in_prefix": "e1857fccedc4b0aea63b3d217f55296acb3cf7377d58ee8799e2f7107cf4d07e",
+        "size_in_bytes": 293
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/import_file.py",
+        "path_type": "hardlink",
+        "sha256": "20fe2e132908114163f377f781b84ddd1564b2d4aa3527aa30a57f2eb58647cf",
+        "sha256_in_prefix": "20fe2e132908114163f377f781b84ddd1564b2d4aa3527aa30a57f2eb58647cf",
+        "size_in_bytes": 8723
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/indent_io.py",
+        "path_type": "hardlink",
+        "sha256": "2e03348fbac0c775891aaedf1fbe40f2792a58a376ff2d631e2a38f608a30366",
+        "sha256_in_prefix": "2e03348fbac0c775891aaedf1fbe40f2792a58a376ff2d631e2a38f608a30366",
+        "size_in_bytes": 1855
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/log_config.py",
+        "path_type": "hardlink",
+        "sha256": "26de7c126959802cba168273bf328badc18d4be0deaed77352c2d78b88be3b37",
+        "sha256_in_prefix": "26de7c126959802cba168273bf328badc18d4be0deaed77352c2d78b88be3b37",
+        "size_in_bytes": 6586
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/method.py",
+        "path_type": "hardlink",
+        "sha256": "7b531e5d76ef2f91b3135b855dc4636953cbe7e3d45aca12a8e5475a8c60fa2c",
+        "sha256_in_prefix": "7b531e5d76ef2f91b3135b855dc4636953cbe7e3d45aca12a8e5475a8c60fa2c",
+        "size_in_bytes": 1617
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/misc.py",
+        "path_type": "hardlink",
+        "sha256": "0ca2638e639f6b0253810f469d3badd8f2cd69a4cc0c8feb03f3ffe2d1ec066c",
+        "sha256_in_prefix": "0ca2638e639f6b0253810f469d3badd8f2cd69a4cc0c8feb03f3ffe2d1ec066c",
+        "size_in_bytes": 14050
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/pyyaml_util.py",
+        "path_type": "hardlink",
+        "sha256": "9d66b6574d1771016d619e54c9660054487aae586c91576fcbc46ab1fee8aaa9",
+        "sha256_in_prefix": "9d66b6574d1771016d619e54c9660054487aae586c91576fcbc46ab1fee8aaa9",
+        "size_in_bytes": 12549
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/redirect_io.py",
+        "path_type": "hardlink",
+        "sha256": "d712c0c25821b90321e6ea16a40d4b1b6856b69fffe6ed8f6583e09657d299b1",
+        "sha256_in_prefix": "d712c0c25821b90321e6ea16a40d4b1b6856b69fffe6ed8f6583e09657d299b1",
+        "size_in_bytes": 2097
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/singleton.py",
+        "path_type": "hardlink",
+        "sha256": "7636101b0f1f2fffb19bf08088f2cb2d7020f544660681dacde0356adf912fe9",
+        "sha256_in_prefix": "7636101b0f1f2fffb19bf08088f2cb2d7020f544660681dacde0356adf912fe9",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tee_io.py",
+        "path_type": "hardlink",
+        "sha256": "3eb4c01c546ecf2a01fc86813af0d5f128a60b35082643bca17ea21130f53847",
+        "sha256_in_prefix": "3eb4c01c546ecf2a01fc86813af0d5f128a60b35082643bca17ea21130f53847",
+        "size_in_bytes": 3367
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d6f5fea49e4f2243fcd8048683df92bbb7ebef5ab6da4019941127695292f7ce",
+        "sha256_in_prefix": "d6f5fea49e4f2243fcd8048683df92bbb7ebef5ab6da4019941127695292f7ce",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/import1.py",
+        "path_type": "hardlink",
+        "sha256": "0f73036183434e9b5cf46eb7c3cab8d7af1cc11da096e9c8d25672af67356173",
+        "sha256_in_prefix": "0f73036183434e9b5cf46eb7c3cab8d7af1cc11da096e9c8d25672af67356173",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/import2.py",
+        "path_type": "hardlink",
+        "sha256": "e712dfff947f409165d7e7f9a4279fc734eb162968e828f8a5cfb25585fb20b0",
+        "sha256_in_prefix": "e712dfff947f409165d7e7f9a4279fc734eb162968e828f8a5cfb25585fb20b0",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/import_data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/import_data/a/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/import_data/a/tfile.py",
+        "path_type": "hardlink",
+        "sha256": "73cbb72214b286edfb85c1918c9e1ea9dcdf8d1dfe3ea82e37bd510655d880fa",
+        "sha256_in_prefix": "73cbb72214b286edfb85c1918c9e1ea9dcdf8d1dfe3ea82e37bd510655d880fa",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/import_data/b/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/import_data/b/tfile.py",
+        "path_type": "hardlink",
+        "sha256": "6b9ec829d22404206297e5352b8345c5ed787171fcfa6d4b2365b6a0ba90df70",
+        "sha256_in_prefix": "6b9ec829d22404206297e5352b8345c5ed787171fcfa6d4b2365b6a0ba90df70",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/import_data/tfile1.0.py",
+        "path_type": "hardlink",
+        "sha256": "22059039d5cdbc89de3bda60bed8bd29e04f09569f8a212f90ce46d9d8e640ff",
+        "sha256_in_prefix": "22059039d5cdbc89de3bda60bed8bd29e04f09569f8a212f90ce46d9d8e640ff",
+        "size_in_bytes": 31
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/import_exception.py",
+        "path_type": "hardlink",
+        "sha256": "6d8e118879dc714d0ba7844924f154fd60349406ecfd212627f7b6cf4d041500",
+        "sha256_in_prefix": "6d8e118879dc714d0ba7844924f154fd60349406ecfd212627f7b6cf4d041500",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/import_main_exception.py",
+        "path_type": "hardlink",
+        "sha256": "fc65bac8e038b58a8c0752ee9d4a154250004f8e841b60d779d8659ab87c0123",
+        "sha256_in_prefix": "fc65bac8e038b58a8c0752ee9d4a154250004f8e841b60d779d8659ab87c0123",
+        "size_in_bytes": 128
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_archivereader.py",
+        "path_type": "hardlink",
+        "sha256": "515a273467fbd5131c6a2d1c1bfdcfbc27db49e2484e33f48b3dccbdba37aad9",
+        "sha256_in_prefix": "515a273467fbd5131c6a2d1c1bfdcfbc27db49e2484e33f48b3dccbdba37aad9",
+        "size_in_bytes": 15080
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_config.py",
+        "path_type": "hardlink",
+        "sha256": "66d8a98bf0a9a97f2b684caec98c2e3dfca7797d301579b3258bc929659b9a8b",
+        "sha256_in_prefix": "66d8a98bf0a9a97f2b684caec98c2e3dfca7797d301579b3258bc929659b9a8b",
+        "size_in_bytes": 59195
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_cross.py",
+        "path_type": "hardlink",
+        "sha256": "64f45d94cd10897919b5a35efa27522c38fe6c223eb459c5420032dad9e7d445",
+        "sha256_in_prefix": "64f45d94cd10897919b5a35efa27522c38fe6c223eb459c5420032dad9e7d445",
+        "size_in_bytes": 1419
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_factory.py",
+        "path_type": "hardlink",
+        "sha256": "23d07c37e27644a81d83e6babfcad4cf9101e55c9c0e0266d92ce5d2ddce7719",
+        "sha256_in_prefix": "23d07c37e27644a81d83e6babfcad4cf9101e55c9c0e0266d92ce5d2ddce7719",
+        "size_in_bytes": 1699
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_import.py",
+        "path_type": "hardlink",
+        "sha256": "79e5614e4158397fdd6daf9689e82a63557cc127b21bc72b4ce691de9017a461",
+        "sha256_in_prefix": "79e5614e4158397fdd6daf9689e82a63557cc127b21bc72b4ce691de9017a461",
+        "size_in_bytes": 11432
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_io.py",
+        "path_type": "hardlink",
+        "sha256": "7350560483a278a21b2ef3a7356d150fe1f38957a092e3f088b6d6504c6c6c2b",
+        "sha256_in_prefix": "7350560483a278a21b2ef3a7356d150fe1f38957a092e3f088b6d6504c6c6c2b",
+        "size_in_bytes": 7128
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_json.py",
+        "path_type": "hardlink",
+        "sha256": "9bd76fb7cf08916d68f44c30c9bf473ef7271b7c848021e6925bd5c0d3ecfbc4",
+        "sha256_in_prefix": "9bd76fb7cf08916d68f44c30c9bf473ef7271b7c848021e6925bd5c0d3ecfbc4",
+        "size_in_bytes": 4512
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_log_config.py",
+        "path_type": "hardlink",
+        "sha256": "24600e9736e019d330342d01519a71929c05b25ea3cb21d33efbe619c4300142",
+        "sha256_in_prefix": "24600e9736e019d330342d01519a71929c05b25ea3cb21d33efbe619c4300142",
+        "size_in_bytes": 7740
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_method.py",
+        "path_type": "hardlink",
+        "sha256": "9fdb8fca43ff46b0f008acd27231f1c469c1ab96ce86f696a8d9310eb29f7986",
+        "sha256_in_prefix": "9fdb8fca43ff46b0f008acd27231f1c469c1ab96ce86f696a8d9310eb29f7986",
+        "size_in_bytes": 1061
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_misc.py",
+        "path_type": "hardlink",
+        "sha256": "4ff835a0800dde9ca8c004612b3bd7883f12726bb61530b1f2da1169459d70f6",
+        "sha256_in_prefix": "4ff835a0800dde9ca8c004612b3bd7883f12726bb61530b1f2da1169459d70f6",
+        "size_in_bytes": 20473
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_singleton.py",
+        "path_type": "hardlink",
+        "sha256": "691f072f35431420773c62a78d786c955c06d5ca18455f3cd28ee0570769eb95",
+        "sha256_in_prefix": "691f072f35431420773c62a78d786c955c06d5ca18455f3cd28ee0570769eb95",
+        "size_in_bytes": 798
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_smap.py",
+        "path_type": "hardlink",
+        "sha256": "6c69467276948f492fdd17f35faccd6d681288414cf8157243808473f7d3a05c",
+        "sha256_in_prefix": "6c69467276948f492fdd17f35faccd6d681288414cf8157243808473f7d3a05c",
+        "size_in_bytes": 4566
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_visitor.py",
+        "path_type": "hardlink",
+        "sha256": "e40a3a58e17fbdae7d165c732792691491ec199d1cf620df6d65ea269db9d93b",
+        "sha256_in_prefix": "e40a3a58e17fbdae7d165c732792691491ec199d1cf620df6d65ea269db9d93b",
+        "size_in_bytes": 4093
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_xml.py",
+        "path_type": "hardlink",
+        "sha256": "16197a1b0d0ecf301c12a7a88661e55d1a300221507f9cd4c01baae47d3e61ea",
+        "sha256_in_prefix": "16197a1b0d0ecf301c12a7a88661e55d1a300221507f9cd4c01baae47d3e61ea",
+        "size_in_bytes": 4496
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/tests/test_yaml.py",
+        "path_type": "hardlink",
+        "sha256": "7116b5a5c5e795d8b78bee11c30a7c14c98985c0ff1508baf4ba10b0d590f303",
+        "sha256_in_prefix": "7116b5a5c5e795d8b78bee11c30a7c14c98985c0ff1508baf4ba10b0d590f303",
+        "size_in_bytes": 7000
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/timing.py",
+        "path_type": "hardlink",
+        "sha256": "561e6a12626623cbcc9a69fa130f0cfe8a683838aba8af4c5c3da0ddf48e5e5a",
+        "sha256_in_prefix": "561e6a12626623cbcc9a69fa130f0cfe8a683838aba8af4c5c3da0ddf48e5e5a",
+        "size_in_bytes": 6038
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/twzzle.py",
+        "path_type": "hardlink",
+        "sha256": "72fae949a5ddd8574fed771c938064b4ee9c494ba782361c2f1347adf71de067",
+        "sha256_in_prefix": "72fae949a5ddd8574fed771c938064b4ee9c494ba782361c2f1347adf71de067",
+        "size_in_bytes": 2025
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/visitor.py",
+        "path_type": "hardlink",
+        "sha256": "2f51461f626ab1af341c4d2125c50b3daa7676bfcefcaffc5735f1b1f3af50f7",
+        "sha256_in_prefix": "2f51461f626ab1af341c4d2125c50b3daa7676bfcefcaffc5735f1b1f3af50f7",
+        "size_in_bytes": 11124
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/xml_utils.py",
+        "path_type": "hardlink",
+        "sha256": "61991dede78a09e249b770815d1df9ef19b0db5ad7805a0e316437ab708a4cfa",
+        "sha256_in_prefix": "61991dede78a09e249b770815d1df9ef19b0db5ad7805a0e316437ab708a4cfa",
+        "size_in_bytes": 2557
+      },
+      {
+        "_path": "site-packages/pyutilib/misc/xmltodict.py",
+        "path_type": "hardlink",
+        "sha256": "50ec5cea875d64434b09d3277d36325a40de9c6b548dec36f21c881526f90782",
+        "sha256_in_prefix": "50ec5cea875d64434b09d3277d36325a40de9c6b548dec36f21c881526f90782",
+        "size_in_bytes": 6455
+      },
+      {
+        "_path": "site-packages/pyutilib/ply/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "343288a4993083e9c40aab6321a536d74dd6e55879241117d6da9421e7684acd",
+        "sha256_in_prefix": "343288a4993083e9c40aab6321a536d74dd6e55879241117d6da9421e7684acd",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "site-packages/pyutilib/ply/ply.py",
+        "path_type": "hardlink",
+        "sha256": "7be1a07692c95991453e8166767fe7acfbd044ad00a13acfb4994e682dde9c61",
+        "sha256_in_prefix": "7be1a07692c95991453e8166767fe7acfbd044ad00a13acfb4994e682dde9c61",
+        "size_in_bytes": 1692
+      },
+      {
+        "_path": "site-packages/pyutilib/pyro/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0f1327075e086284353ff2684bd931c7642696c47e1b0fb22918c34390b3ff06",
+        "sha256_in_prefix": "0f1327075e086284353ff2684bd931c7642696c47e1b0fb22918c34390b3ff06",
+        "size_in_bytes": 3725
+      },
+      {
+        "_path": "site-packages/pyutilib/pyro/client.py",
+        "path_type": "hardlink",
+        "sha256": "478d12d55599b28ad6f75974bf5c46a6611130242026b406eb7a009066426d6a",
+        "sha256_in_prefix": "478d12d55599b28ad6f75974bf5c46a6611130242026b406eb7a009066426d6a",
+        "size_in_bytes": 6335
+      },
+      {
+        "_path": "site-packages/pyutilib/pyro/dispatch_srvr.py",
+        "path_type": "hardlink",
+        "sha256": "05366e48e3e70134e999e63c9a38b5ba094b3b52bc61aa2740bf565d8fe08b39",
+        "sha256_in_prefix": "05366e48e3e70134e999e63c9a38b5ba094b3b52bc61aa2740bf565d8fe08b39",
+        "size_in_bytes": 3710
+      },
+      {
+        "_path": "site-packages/pyutilib/pyro/dispatcher.py",
+        "path_type": "hardlink",
+        "sha256": "682b368723c88655ec9f330c13662c966f433d4e6c18d2832c8b87d1f0bc12fa",
+        "sha256_in_prefix": "682b368723c88655ec9f330c13662c966f433d4e6c18d2832c8b87d1f0bc12fa",
+        "size_in_bytes": 13627
+      },
+      {
+        "_path": "site-packages/pyutilib/pyro/nameserver.py",
+        "path_type": "hardlink",
+        "sha256": "035ef819a9f4e2584f146f176bc732c93ecfdc840ae44bcd2816b81e752c4d70",
+        "sha256_in_prefix": "035ef819a9f4e2584f146f176bc732c93ecfdc840ae44bcd2816b81e752c4d70",
+        "size_in_bytes": 1448
+      },
+      {
+        "_path": "site-packages/pyutilib/pyro/task.py",
+        "path_type": "hardlink",
+        "sha256": "260745514df5ecbaea05b9b2fa4830d9d41e86b8aa13b6041b4ff76c19d41499",
+        "sha256_in_prefix": "260745514df5ecbaea05b9b2fa4830d9d41e86b8aa13b6041b4ff76c19d41499",
+        "size_in_bytes": 3008
+      },
+      {
+        "_path": "site-packages/pyutilib/pyro/util.py",
+        "path_type": "hardlink",
+        "sha256": "b16f005dd18832af6c2c14ba59db4c6dc1412a099e740b856533eb7e4618bbd1",
+        "sha256_in_prefix": "b16f005dd18832af6c2c14ba59db4c6dc1412a099e740b856533eb7e4618bbd1",
+        "size_in_bytes": 12014
+      },
+      {
+        "_path": "site-packages/pyutilib/pyro/worker.py",
+        "path_type": "hardlink",
+        "sha256": "4fbe2b935903cb69282f57886463229e07cdcd68637164375c3162bad0d9748c",
+        "sha256_in_prefix": "4fbe2b935903cb69282f57886463229e07cdcd68637164375c3162bad0d9748c",
+        "size_in_bytes": 16177
+      },
+      {
+        "_path": "site-packages/pyutilib/services/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6ad32b9c4a2666d42d764fa946861b691f220ed86fde8dfaa5a1b217abc80e16",
+        "sha256_in_prefix": "6ad32b9c4a2666d42d764fa946861b691f220ed86fde8dfaa5a1b217abc80e16",
+        "size_in_bytes": 530
+      },
+      {
+        "_path": "site-packages/pyutilib/services/services.py",
+        "path_type": "hardlink",
+        "sha256": "259e7cac57eeba8a0519f7f6dfd0904bc8a71327b17484885f867f88ac21bb5c",
+        "sha256_in_prefix": "259e7cac57eeba8a0519f7f6dfd0904bc8a71327b17484885f867f88ac21bb5c",
+        "size_in_bytes": 1897
+      },
+      {
+        "_path": "site-packages/pyutilib/subprocess/GlobalData.py",
+        "path_type": "hardlink",
+        "sha256": "5da244e460716118451064ed94cfb3df8a402d9cb86e26218c525ec12d46a4cb",
+        "sha256_in_prefix": "5da244e460716118451064ed94cfb3df8a402d9cb86e26218c525ec12d46a4cb",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "site-packages/pyutilib/subprocess/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a94a0dc51e0b8de210bbd0953224a6a7ab991903738a32dea4bdf260023e083a",
+        "sha256_in_prefix": "a94a0dc51e0b8de210bbd0953224a6a7ab991903738a32dea4bdf260023e083a",
+        "size_in_bytes": 669
+      },
+      {
+        "_path": "site-packages/pyutilib/subprocess/processmngr.py",
+        "path_type": "hardlink",
+        "sha256": "301b089db18fafaadf0a0f683a8f59c33b50191bdb3ed545f703a069a02d4584",
+        "sha256_in_prefix": "301b089db18fafaadf0a0f683a8f59c33b50191bdb3ed545f703a069a02d4584",
+        "size_in_bytes": 30577
+      },
+      {
+        "_path": "site-packages/pyutilib/subprocess/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e724a547c6df9715d72db8918f533736ba532e4ec202272b27eee2a1e7bd762b",
+        "sha256_in_prefix": "e724a547c6df9715d72db8918f533736ba532e4ec202272b27eee2a1e7bd762b",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "site-packages/pyutilib/subprocess/tests/tee_script.py",
+        "path_type": "hardlink",
+        "sha256": "5d9a94f01c745817754bdad86c660a5628a03213cce1310643531b03e23360c8",
+        "sha256_in_prefix": "5d9a94f01c745817754bdad86c660a5628a03213cce1310643531b03e23360c8",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "site-packages/pyutilib/subprocess/tests/test_subprocess.py",
+        "path_type": "hardlink",
+        "sha256": "72467088bd951b055d670a8a7f63e6019c145df11db48453158c2929a755ee1e",
+        "sha256_in_prefix": "72467088bd951b055d670a8a7f63e6019c145df11db48453158c2929a755ee1e",
+        "size_in_bytes": 8904
+      },
+      {
+        "_path": "site-packages/pyutilib/th/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4885abd67e4d13c26bf34cef0597aadb33396044c30c24eb3294480281c2cf9a",
+        "sha256_in_prefix": "4885abd67e4d13c26bf34cef0597aadb33396044c30c24eb3294480281c2cf9a",
+        "size_in_bytes": 851
+      },
+      {
+        "_path": "site-packages/pyutilib/th/nose_gc.py",
+        "path_type": "hardlink",
+        "sha256": "e590601ff178ec9093701bdd68f6fe65b96aeb86518d5b236b6a595b0947f105",
+        "sha256_in_prefix": "e590601ff178ec9093701bdd68f6fe65b96aeb86518d5b236b6a595b0947f105",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "site-packages/pyutilib/th/nose_testdata.py",
+        "path_type": "hardlink",
+        "sha256": "5391d41bdb150ffd5383e6adfc485e8602a4b61ae54f5f31a27294006987b74d",
+        "sha256_in_prefix": "5391d41bdb150ffd5383e6adfc485e8602a4b61ae54f5f31a27294006987b74d",
+        "size_in_bytes": 5373
+      },
+      {
+        "_path": "site-packages/pyutilib/th/nose_timeout.py",
+        "path_type": "hardlink",
+        "sha256": "cd5c06cbc899e9812e3d5621c797656c18e855f29ac45d375ba6bee593d29d59",
+        "sha256_in_prefix": "cd5c06cbc899e9812e3d5621c797656c18e855f29ac45d375ba6bee593d29d59",
+        "size_in_bytes": 2400
+      },
+      {
+        "_path": "site-packages/pyutilib/th/pyunit.py",
+        "path_type": "hardlink",
+        "sha256": "74cdfebb6597a7a037d5ce28aa571ac0f36037b69b9be960d39b29f0a090e45c",
+        "sha256_in_prefix": "74cdfebb6597a7a037d5ce28aa571ac0f36037b69b9be960d39b29f0a090e45c",
+        "size_in_bytes": 18968
+      },
+      {
+        "_path": "site-packages/pyutilib/th/runtests.py",
+        "path_type": "hardlink",
+        "sha256": "e4c6660fdb86a42c13e4733150f337407b65d98c8e16d653a34a7ffd5a6445a2",
+        "sha256_in_prefix": "e4c6660fdb86a42c13e4733150f337407b65d98c8e16d653a34a7ffd5a6445a2",
+        "size_in_bytes": 7853
+      },
+      {
+        "_path": "site-packages/pyutilib/th/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d42164c79522861932b9680ef5ca4f484a4c93de2768e44aebfdea6650789c28",
+        "sha256_in_prefix": "d42164c79522861932b9680ef5ca4f484a4c93de2768e44aebfdea6650789c28",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "site-packages/pyutilib/th/tests/test_misc.py",
+        "path_type": "hardlink",
+        "sha256": "380735126fa3c8e90e81d2306a780003390ae968ded007335c8db11566f01371",
+        "sha256_in_prefix": "380735126fa3c8e90e81d2306a780003390ae968ded007335c8db11566f01371",
+        "size_in_bytes": 7789
+      },
+      {
+        "_path": "site-packages/pyutilib/th/tests/test_pyunit.py",
+        "path_type": "hardlink",
+        "sha256": "139c34a2f54035abade0aa8276511805e2e6f67a4f72940a159ee4df49181604",
+        "sha256_in_prefix": "139c34a2f54035abade0aa8276511805e2e6f67a4f72940a159ee4df49181604",
+        "size_in_bytes": 6692
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b634639b0d64aa7b02cadadae357d490ca96d94f5f1a01984559182fdc54c1b9",
+        "sha256_in_prefix": "b634639b0d64aa7b02cadadae357d490ca96d94f5f1a01984559182fdc54c1b9",
+        "size_in_bytes": 1117
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/driver.py",
+        "path_type": "hardlink",
+        "sha256": "8358a2009abac68efabfc25639ce2e8a1eafcb6a55bd9dc1a59174cecac53b33",
+        "sha256_in_prefix": "8358a2009abac68efabfc25639ce2e8a1eafcb6a55bd9dc1a59174cecac53b33",
+        "size_in_bytes": 2305
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/executable.py",
+        "path_type": "hardlink",
+        "sha256": "c67e257bd52ba1859c5f6084c2ca7b4e9cabdbcaef1e0d7abe4d2a576d5621a2",
+        "sha256_in_prefix": "c67e257bd52ba1859c5f6084c2ca7b4e9cabdbcaef1e0d7abe4d2a576d5621a2",
+        "size_in_bytes": 1527
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/file.py",
+        "path_type": "hardlink",
+        "sha256": "7c902de24b890a786c1dba827f2a6a0279c7214dffe6a1dbc7401ebd41460b3d",
+        "sha256_in_prefix": "7c902de24b890a786c1dba827f2a6a0279c7214dffe6a1dbc7401ebd41460b3d",
+        "size_in_bytes": 366
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/functor.py",
+        "path_type": "hardlink",
+        "sha256": "17a9f7741701cff4119ff8408dbc95bcf3aec38f867f38d979abb6a3a5ad7d55",
+        "sha256_in_prefix": "17a9f7741701cff4119ff8408dbc95bcf3aec38f867f38d979abb6a3a5ad7d55",
+        "size_in_bytes": 14046
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/globals.py",
+        "path_type": "hardlink",
+        "sha256": "4e020a87c5c7d4ebb2205adcf3e998ebc5b870498c27d4b0f103868ee5765ad8",
+        "sha256_in_prefix": "4e020a87c5c7d4ebb2205adcf3e998ebc5b870498c27d4b0f103868ee5765ad8",
+        "size_in_bytes": 647
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/resource.py",
+        "path_type": "hardlink",
+        "sha256": "4bfabee37b79284be26627882da3186c81e1c967d4291afa936dd1c94338ebd5",
+        "sha256_in_prefix": "4bfabee37b79284be26627882da3186c81e1c967d4291afa936dd1c94338ebd5",
+        "size_in_bytes": 1336
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/task.py",
+        "path_type": "hardlink",
+        "sha256": "89f6a502f7c04753a0fcd53af26ba62afd7a6fde3af089f9f6320a2e08c26cff",
+        "sha256_in_prefix": "89f6a502f7c04753a0fcd53af26ba62afd7a6fde3af089f9f6320a2e08c26cff",
+        "size_in_bytes": 22039
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/tasks.py",
+        "path_type": "hardlink",
+        "sha256": "2c59b0107d35587729d260602fcfb6e6f54ba852601a98ac8c5ef59e312bd59b",
+        "sha256_in_prefix": "2c59b0107d35587729d260602fcfb6e6f54ba852601a98ac8c5ef59e312bd59b",
+        "size_in_bytes": 3158
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2e16a689e09c859e348985c6157be10658b760886b630c11e8c5d5bb9aae3896",
+        "sha256_in_prefix": "2e16a689e09c859e348985c6157be10658b760886b630c11e8c5d5bb9aae3896",
+        "size_in_bytes": 26
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/tests/test_core.py",
+        "path_type": "hardlink",
+        "sha256": "18777080c75ef426b06a90d23ecb25d8751947ebcf6f05976e78fda78cd6ab38",
+        "sha256_in_prefix": "18777080c75ef426b06a90d23ecb25d8751947ebcf6f05976e78fda78cd6ab38",
+        "size_in_bytes": 17545
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/tests/test_doc.py",
+        "path_type": "hardlink",
+        "sha256": "04d776bcc7335789709bdcfeb08c8d8c6ae2c0fbdf494cd81cbcf9392f3d9deb",
+        "sha256_in_prefix": "04d776bcc7335789709bdcfeb08c8d8c6ae2c0fbdf494cd81cbcf9392f3d9deb",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/tests/test_task.py",
+        "path_type": "hardlink",
+        "sha256": "104dc058c900f693dfa6f5ea87607b6624e65afafbee68caec3f4e5f6a32c46e",
+        "sha256_in_prefix": "104dc058c900f693dfa6f5ea87607b6624e65afafbee68caec3f4e5f6a32c46e",
+        "size_in_bytes": 22699
+      },
+      {
+        "_path": "site-packages/pyutilib/workflow/workflow.py",
+        "path_type": "hardlink",
+        "sha256": "9f448d9fc394bc22ea5b6fc0a71faef336ebe01c4e6372c3c26ffb8dba67aec0",
+        "sha256_in_prefix": "9f448d9fc394bc22ea5b6fc0a71faef336ebe01c4e6372c3c26ffb8dba67aec0",
+        "size_in_bytes": 10310
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/autotest/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/autotest/__pycache__/default_testdriver.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/autotest/__pycache__/driver.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/autotest/__pycache__/json_plugin.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/autotest/__pycache__/plugins.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/autotest/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/autotest/tests/__pycache__/test_driver.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/autotest/__pycache__/yaml_plugin.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/common/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/common/__pycache__/_exceptions.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/app/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/app/__pycache__/simple.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/app/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/app/tests/__pycache__/app1a.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/app/tests/__pycache__/app1b.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/app/tests/__pycache__/app2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/app/tests/__pycache__/app3.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/app/tests/__pycache__/app4.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/app/tests/__pycache__/test_simple.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/config/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/config/__pycache__/configuration.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/config/__pycache__/env_config.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/config/__pycache__/logging_config.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/config/__pycache__/managed_plugin.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/config/__pycache__/options.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/config/__pycache__/plugin_ConfigParser.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/config/__pycache__/tempfiles.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/config/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/config/tests/__pycache__/test_config.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/config/tests/__pycache__/test_options.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/config/tests/__pycache__/test_tempdir.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/core/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/core/__pycache__/core.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/core/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/core/tests/__pycache__/test_core.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/executables/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/executables/__pycache__/executable.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/loader/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/loader/__pycache__/plugin_eggLoader.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/loader/__pycache__/plugin_importLoader.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/egg1.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/egg2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/load1.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/load1a.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/load2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/load2a.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/test_egg.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/test_load.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/component/loader/tests/__pycache__/test_load2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/dev/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/dev/__pycache__/checkCopyright.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/dev/__pycache__/entry_point.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/dev/__pycache__/lbin.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/dev/__pycache__/lpython.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/dev/__pycache__/pypi_downloads.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/dev/__pycache__/replaceCopyright.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/dev/__pycache__/runtests.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/dev/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/dev/tests/__pycache__/test_runtests.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/enum/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/enum/__pycache__/enum.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/enum/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/enum/tests/__pycache__/test_enum.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/excel/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/excel/__pycache__/base.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/excel/__pycache__/excel.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/excel/__pycache__/spreadsheet.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/excel/__pycache__/spreadsheet_openpyxl.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/excel/__pycache__/spreadsheet_win32com.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/excel/__pycache__/spreadsheet_xlrd.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/excel/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/excel/tests/__pycache__/test_data.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/factory/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/factory/__pycache__/executable.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/factory/__pycache__/factory.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/math/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/math/__pycache__/median2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/math/__pycache__/median3.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/math/__pycache__/numtypes.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/math/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/math/tests/__pycache__/test_math.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/math/tests/__pycache__/test_numtypes.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/math/__pycache__/util.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/GlobalData.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/archivereader.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/comparison.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/config.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/cross.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/dict_with_default.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/factory.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/format_io.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/gc_manager.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/generator.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/import_file.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/indent_io.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/log_config.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/method.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/misc.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/pyyaml_util.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/redirect_io.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/singleton.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/tee_io.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/import1.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/import2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/import_data/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/import_data/a/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/import_data/a/__pycache__/tfile.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/import_data/b/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/import_data/b/__pycache__/tfile.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/import_data/__pycache__/tfile1.0.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/import_exception.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/import_main_exception.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_archivereader.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_config.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_cross.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_factory.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_import.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_io.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_json.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_log_config.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_method.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_misc.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_singleton.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_smap.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_visitor.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_xml.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/tests/__pycache__/test_yaml.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/timing.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/twzzle.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/visitor.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/xml_utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/misc/__pycache__/xmltodict.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/ply/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/ply/__pycache__/ply.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/pyro/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/pyro/__pycache__/client.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/pyro/__pycache__/dispatch_srvr.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/pyro/__pycache__/dispatcher.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/pyro/__pycache__/nameserver.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/pyro/__pycache__/task.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/pyro/__pycache__/util.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/pyro/__pycache__/worker.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/services/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/services/__pycache__/services.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/subprocess/__pycache__/GlobalData.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/subprocess/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/subprocess/__pycache__/processmngr.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/subprocess/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/subprocess/tests/__pycache__/tee_script.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/subprocess/tests/__pycache__/test_subprocess.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/th/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/th/__pycache__/nose_gc.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/th/__pycache__/nose_testdata.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/th/__pycache__/nose_timeout.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/th/__pycache__/pyunit.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/th/__pycache__/runtests.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/th/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/th/tests/__pycache__/test_misc.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/th/tests/__pycache__/test_pyunit.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/__pycache__/driver.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/__pycache__/executable.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/__pycache__/file.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/__pycache__/functor.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/__pycache__/globals.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/__pycache__/resource.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/__pycache__/task.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/__pycache__/tasks.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/tests/__pycache__/test_core.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/tests/__pycache__/test_doc.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/tests/__pycache__/test_task.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pyutilib/workflow/__pycache__/workflow.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/test.pyutilib-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/lbin-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/lpython-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/pypi_downloads-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/replacecopyright-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/checkcopyright-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/pyutilib_test_driver-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/dispatch_srvr-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/test.pyutilib.exe",
+        "path_type": "windows_python_entry_point_exe"
+      },
+      {
+        "_path": "Scripts/lbin.exe",
+        "path_type": "windows_python_entry_point_exe"
+      },
+      {
+        "_path": "Scripts/lpython.exe",
+        "path_type": "windows_python_entry_point_exe"
+      },
+      {
+        "_path": "Scripts/pypi_downloads.exe",
+        "path_type": "windows_python_entry_point_exe"
+      },
+      {
+        "_path": "Scripts/replacecopyright.exe",
+        "path_type": "windows_python_entry_point_exe"
+      },
+      {
+        "_path": "Scripts/checkcopyright.exe",
+        "path_type": "windows_python_entry_point_exe"
+      },
+      {
+        "_path": "Scripts/pyutilib_test_driver.exe",
+        "path_type": "windows_python_entry_point_exe"
+      },
+      {
+        "_path": "Scripts/dispatch_srvr.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pyutilib=5.8.0",
+  "sha256": "34a55173ddd1f3d3d2e78bfc2ee6e72c0bd7a7dfa3dd1052e92525c87d39ebe4",
+  "size": 172355,
+  "subdir": "noarch",
+  "timestamp": 1629478410256,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pyutilib-5.8.0-pyhd3eb1b0_1.conda",
+  "version": "5.8.0"
+}
